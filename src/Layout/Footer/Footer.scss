@@ -29,7 +29,8 @@ footer {
 .footer-first-item {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 220px;
 }
 
 .footer-clg-locations {
@@ -129,7 +130,7 @@ footer {
 .footer-third-item {
   display: flex;
   justify-content: center;
-  gap: 80px;
+  gap: 190px;
   padding: 15px;
   align-items: center;
   span{
