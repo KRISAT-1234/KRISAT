@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/KRISAT/static/css/main.784e92c1.css",
+    "main.js": "/KRISAT/static/js/main.e045aa86.js",
+    "static/js/453.f900c8ac.chunk.js": "/KRISAT/static/js/453.f900c8ac.chunk.js",
+    "static/media/img_infra.jpg": "/KRISAT/static/media/img_infra.0eaf0050da4825f28f08.jpg",
+    "static/media/img_faci.jpg": "/KRISAT/static/media/img_faci.59027a340378d04f1b40.jpg",
+    "static/media/KRISAT.png": "/KRISAT/static/media/KRISAT.2dc4eaf12a10023fa555.png",
+    "static/media/1088523.jpg": "/KRISAT/static/media/1088523.f4c65443c44f7638258b.jpg",
+    "static/media/clgLogo.png": "/KRISAT/static/media/clgLogo.9e0e69da273a0a561026.png",
+    "index.html": "/KRISAT/index.html",
+    "main.784e92c1.css.map": "/KRISAT/static/css/main.784e92c1.css.map",
+    "main.e045aa86.js.map": "/KRISAT/static/js/main.e045aa86.js.map",
+    "453.f900c8ac.chunk.js.map": "/KRISAT/static/js/453.f900c8ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.784e92c1.css",
+    "static/js/main.e045aa86.js"
+  ]
+}
