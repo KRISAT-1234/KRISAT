@@ -9,10 +9,10 @@ import contentData from "./Services/utils/json/contentData";
 import Gallery from "./Pages/Gallery";
 
 function App() {
-  const {staticData} = contentData();
+  const {staticData} = ContentData();
   return (
     <>
-      <Router>
+      <Router basename="KRISAT">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route path="/" index element={<Home />}></Route>

@@ -20,6 +20,7 @@ import VideoPlayer from "../../Components/VideoPlayer/VideoPlayer";
 
 const Home = () => {
   const { aboutContent } = HomeContent();
+  console.log({ aboutContent })
   const navigate = useNavigate()
   return (
     <>
@@ -41,7 +42,7 @@ const Home = () => {
           <h2>About KRISAT</h2>
         </div>
         <div className="about-content">
-        {aboutContent.map((content, index) => {
+        {aboutContent?.map((content, index) => {
           return (
               <Card sx={{ maxWidth: 395 }} className="content1" key={index}>
                 <div className="content-header">
