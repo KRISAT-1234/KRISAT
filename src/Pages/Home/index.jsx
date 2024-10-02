@@ -15,7 +15,8 @@ import SendIcon from '@mui/icons-material/Send';
 import PhotoGallery from "../../Components/Gallery/PhotoGallery";
 import NewsLetterLabel from "../../Components/NewsLetterLabel/NewsLetterLabel";
 import { useNavigate } from "react-router-dom";
-import HomeContent from '../../Services/utils/json/HomeContent';
+import HomeContent from "../../Services/utils/json/HomeContent";
+import VideoPlayer from "../../Components/VideoPlayer/VideoPlayer";
 
 const Home = () => {
   const { aboutContent } = HomeContent();
@@ -35,6 +36,7 @@ const Home = () => {
          </div>
           <Button className="button" variant="contained" endIcon={<SendIcon />} onClick={()=>navigate("/LifeKRISAT/4")}>EXPLORE &nbsp; </Button>
       </div>
+      <VideoPlayer videoSrc="http://media.w3.org/2010/05/sintel/trailer.mp4" />
       <div className="home-about">
         <div className="about-heading">
           <h2>About KRISAT</h2>
