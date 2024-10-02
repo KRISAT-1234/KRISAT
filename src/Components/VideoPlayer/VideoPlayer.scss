@@ -1,0 +1,78 @@
+.video-player-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .video-section {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+  
+    .video {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  
+    .overlay-text {
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  
+      .highlight {
+        color: #00ff00; /* Highlight "Everything" */
+      }
+    }
+  }
+  
+  .info-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+  
+    .info-card {
+      background-color: #4caf50;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      color: white;
+      font-size: 1.2rem;
+      font-weight: bold;
+      min-width: 100px;
+  
+      p {
+        margin-top: 10px;
+        font-size: 0.9rem;
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .info-section {
+      flex-direction: column;
+      align-items: center;
+  
+      .info-card {
+        margin-bottom: 10px;
+      }
+    }
+  
+    .overlay-text {
+      font-size: 1.5rem;
+    }
+  }
+  
