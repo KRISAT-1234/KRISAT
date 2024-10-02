@@ -36,7 +36,7 @@ const Home = () => {
          </div>
           <Button className="button" variant="contained" endIcon={<SendIcon />} onClick={()=>navigate("/LifeKRISAT/4")}>EXPLORE &nbsp; </Button>
       </div>
-      <VideoPlayer videoSrc="https://www.w3schools.com/html/mov_bbb.mp4" />
+      <VideoPlayer videoSrc="http://media.w3.org/2010/05/sintel/trailer.mp4" />
       <div className="home-about">
         <div className="about-heading">
           <h2>About KRISAT</h2>
