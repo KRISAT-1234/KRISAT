@@ -38,3 +38,29 @@
         font-size: 0.7vw;
     }
 }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+    thead {
+        background-color: #94e881;
+    }
+    tbody {
+        td {
+            ul {
+                li {
+                    text-align: left !important;
+                }
+            }
+        }
+    }
+
+    td {
+      border: 1.5px solid #3e3e3e;
+      text-align: center;
+      padding: 8px;
+    }
+  }
+  
