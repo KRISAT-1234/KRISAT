@@ -1,5 +1,5 @@
 import React from "react";
-import navContent from "../../services/utils/json/navContent";
+import navContent from "../../Services/utils/json/navContent";
 import ReactHtmlParser from "react-html-parser";
 import "./navContent.scss";
 
