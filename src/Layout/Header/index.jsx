@@ -18,7 +18,8 @@ import Button from "@mui/material/Button";
 import { useNavigate } from "react-router-dom";
 import ClgIcon from "../../Assets/Icons/ClgIcon";
 import { Menu, MenuItem } from "@mui/material";
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+//import HeaderData from "../../Services/utils/json/Header";
 import HeaderData from "../../Services/utils/json/Header";
 
 const Header = (props) => {
@@ -34,7 +35,7 @@ const Header = (props) => {
     setAnchorEl(event.currentTarget);
     setOpenMenuKey(key);
   };
-  
+
   const handleClose = () => {
     setAnchorEl(null);
     setOpenMenuKey(null);
@@ -82,22 +83,26 @@ const Header = (props) => {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography variant="h6" sx={{ my: 2, backgroundColor: "#224095", color:"white" }} onClick={() => nav("/")}>
+      <Typography
+        variant="h6"
+        sx={{ my: 2, backgroundColor: "#224095", color: "white" }}
+        onClick={() => nav("/")}
+      >
         Krishna College of Agriculture & Technology
       </Typography>
       <Divider />
       <List>
         {Object.keys(mainNav).map((item) => (
           <ListItem key={item} disablePadding>
-            <ListItemButton 
-              sx={{ 
-                textAlign: "center", 
-                '&:hover': {
-                    backgroundColor: "rgba(50, 168, 82, 0.7)",
-                    color: "white"
-                  } 
-                }} 
-                onClick={() => handleNav(item, 0)}
+            <ListItemButton
+              sx={{
+                textAlign: "center",
+                "&:hover": {
+                  backgroundColor: "rgba(50, 168, 82, 0.7)",
+                  color: "white",
+                },
+              }}
+              onClick={() => handleNav(item, 0)}
             >
               <ListItemText primary={item} />
             </ListItemButton>
@@ -119,7 +124,7 @@ const Header = (props) => {
         <>
           <Toolbar className="header-toolbar">
             <Box className="header-top">
-              <span className="header-top-left" onClick={() => nav('/')}>
+              <span className="header-top-left" onClick={() => nav("/")}>
                 <ClgIcon />
                 <Box className="header-college-name">
                   <h1>Krishna College of Agriculture & Technology</h1>
@@ -128,7 +133,11 @@ const Header = (props) => {
               </span>
               <span className="header-top-right">
                 {navItems.map((item, index) => (
-                  <Button key={item} onClick={() => nav(`${item}`)} className="header-nav">
+                  <Button
+                    key={item}
+                    onClick={() => nav(`${item}`)}
+                    className="header-nav"
+                  >
                     <h3>{item}</h3>
                     {index < navItems.length - 1 && <h2>|</h2>}
                   </Button>
@@ -148,16 +157,18 @@ const Header = (props) => {
                 <React.Fragment key={index}>
                   <Button
                     className="nav-button"
-                    sx={{ 
-                      color: "#fff" ,
-                      '&:hover': {
+                    sx={{
+                      color: "#fff",
+                      "&:hover": {
                         backgroundColor: "rgba(50, 168, 82, 0.7)",
                       },
                     }}
                     id={`toolbar-${index}`}
-                    aria-controls={openMenuKey === keyName ? `toolbar-menu` : undefined}
+                    aria-controls={
+                      openMenuKey === keyName ? `toolbar-menu` : undefined
+                    }
                     aria-haspopup="true"
-                    aria-expanded={openMenuKey === keyName ? 'true' : undefined}
+                    aria-expanded={openMenuKey === keyName ? "true" : undefined}
                     onClick={(event) => handleClick(event, keyName)}
                     endIcon={<KeyboardArrowDownIcon />}
                   >
@@ -169,17 +180,17 @@ const Header = (props) => {
                     open={openMenuKey === keyName}
                     onClose={handleClose}
                     MenuListProps={{
-                      'aria-labelledby': `toolbar-button-${index}`,
+                      "aria-labelledby": `toolbar-button-${index}`,
                     }}
                   >
                     {mainNav[keyName].map((k, i) => (
-                      <MenuItem 
-                        key={`${k}-${i}`} 
-                        onClick={() => handleNav(keyName, i)} 
+                      <MenuItem
+                        key={`${k}-${i}`}
+                        onClick={() => handleNav(keyName, i)}
                         sx={{
-                          '&:hover': {
+                          "&:hover": {
                             backgroundColor: "rgba(50, 168, 82, 0.7)",
-                            color: "white"
+                            color: "white",
                           },
                         }}
                       >
@@ -192,26 +203,27 @@ const Header = (props) => {
             </Box>
           </Toolbar>
         </>
-        {mobileOpen && <nav>
-          <Drawer
-            container={container}
-            variant="temporary"
-            open={mobileOpen}
-            onClose={handleDrawerToggle}
-            ModalProps={{
-              keepMounted: true, // Better open performance on mobile.
-            }}
-            sx={{
-              "& .MuiDrawer-paper": {
-                boxSizing: "border-box",
-                width: drawerWidth,
-                
-              },
-            }}
-          >
-            {drawer}
-          </Drawer>
-        </nav>}
+        {mobileOpen && (
+          <nav>
+            <Drawer
+              container={container}
+              variant="temporary"
+              open={mobileOpen}
+              onClose={handleDrawerToggle}
+              ModalProps={{
+                keepMounted: true, // Better open performance on mobile.
+              }}
+              sx={{
+                "& .MuiDrawer-paper": {
+                  boxSizing: "border-box",
+                  width: drawerWidth,
+                },
+              }}
+            >
+              {drawer}
+            </Drawer>
+          </nav>
+        )}
       </Box>
     </>
   );
