@@ -1,20 +1,39 @@
 {
   "files": {
-    "main.css": "/KRISAT/static/css/main.7348c87c.css",
-    "main.js": "/KRISAT/static/js/main.5a082a1a.js",
+    "main.css": "/KRISAT/static/css/main.bd94132a.css",
+    "main.js": "/KRISAT/static/js/main.37a15d09.js",
     "static/js/453.f900c8ac.chunk.js": "/KRISAT/static/js/453.f900c8ac.chunk.js",
     "static/media/img_infra.jpg": "/KRISAT/static/media/img_infra.0eaf0050da4825f28f08.jpg",
     "static/media/img_faci.jpg": "/KRISAT/static/media/img_faci.59027a340378d04f1b40.jpg",
     "static/media/KRISAT.png": "/KRISAT/static/media/KRISAT.2dc4eaf12a10023fa555.png",
+    "static/media/Picture15.jpg": "/KRISAT/static/media/Picture15.2ea20d4d164a93d92852.jpg",
+    "static/media/Picture3.jpg": "/KRISAT/static/media/Picture3.afdd0c5cffa7c0b1f30a.jpg",
+    "static/media/Picture18.jpg": "/KRISAT/static/media/Picture18.de953603b047bf3d4a44.jpg",
+    "static/media/Picture8.jpg": "/KRISAT/static/media/Picture8.14ab2fd864cd85ba714a.jpg",
+    "static/media/Picture2.jpg": "/KRISAT/static/media/Picture2.d46e437582de480be9cf.jpg",
+    "static/media/Picture9.jpg": "/KRISAT/static/media/Picture9.42c4980b9ddccf04774b.jpg",
+    "static/media/Picture4.jpg": "/KRISAT/static/media/Picture4.50fe7dd1d172d34887c8.jpg",
+    "static/media/Picture1.jpg": "/KRISAT/static/media/Picture1.4e25aeda6e39d7c08054.jpg",
+    "static/media/Picture17.jpg": "/KRISAT/static/media/Picture17.1875e446308f56236c8a.jpg",
     "static/media/1088523.jpg": "/KRISAT/static/media/1088523.f4c65443c44f7638258b.jpg",
+    "static/media/Picture10.jpg": "/KRISAT/static/media/Picture10.da45a977f201ba663ffd.jpg",
+    "static/media/Picture7.jpg": "/KRISAT/static/media/Picture7.0f7932dbd36094657687.jpg",
+    "static/media/Picture12.jpg": "/KRISAT/static/media/Picture12.3f68939726e7ea7d93cb.jpg",
+    "static/media/Picture16.jpg": "/KRISAT/static/media/Picture16.bebc7f3256c75f30c056.jpg",
+    "static/media/Picture11.jpg": "/KRISAT/static/media/Picture11.887e603b7aa1bbba683f.jpg",
+    "static/media/Picture19.jpg": "/KRISAT/static/media/Picture19.eed562751c799ccac05d.jpg",
+    "static/media/Picture5.jpg": "/KRISAT/static/media/Picture5.69a3856003e35b062bf0.jpg",
+    "static/media/Picture14.jpg": "/KRISAT/static/media/Picture14.bf7f472bfe946309bb15.jpg",
+    "static/media/Picture13.jpg": "/KRISAT/static/media/Picture13.92bdb5b48a328940cd21.jpg",
+    "static/media/Picture6.jpg": "/KRISAT/static/media/Picture6.94aea013552da7acbb59.jpg",
     "static/media/clgLogo.png": "/KRISAT/static/media/clgLogo.9e0e69da273a0a561026.png",
     "index.html": "/KRISAT/index.html",
-    "main.7348c87c.css.map": "/KRISAT/static/css/main.7348c87c.css.map",
-    "main.5a082a1a.js.map": "/KRISAT/static/js/main.5a082a1a.js.map",
+    "main.bd94132a.css.map": "/KRISAT/static/css/main.bd94132a.css.map",
+    "main.37a15d09.js.map": "/KRISAT/static/js/main.37a15d09.js.map",
     "453.f900c8ac.chunk.js.map": "/KRISAT/static/js/453.f900c8ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7348c87c.css",
-    "static/js/main.5a082a1a.js"
+    "static/css/main.bd94132a.css",
+    "static/js/main.37a15d09.js"
   ]
 }
