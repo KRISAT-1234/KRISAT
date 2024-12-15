@@ -13,8 +13,13 @@ import { TfiYoutube } from "react-icons/tfi";
 import { FaEarthAfrica } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 import { FaCopyright } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
+  const linkClickHandler = (url) => {
+    window.open(url);
+  };
+
   return (
     <>
       <footer>
@@ -69,12 +74,23 @@ const Footer = () => {
           </Box>
           <Box className="footer-clg-information">
             <Box className="footer-social-pages">
-              <AiFillInstagram />
-              <FaSquareFacebook />
-              <FaSquareXTwitter />
-              <TfiYoutube />
-              <IoMdMail />
-              <FaEarthAfrica />
+              <FaSquareFacebook
+                onClick={() =>
+                  linkClickHandler(
+                    "https://www.facebook.com/KrishnaCollegeofAgricultureandTechnology/"
+                  )
+                }
+              />
+              <FaLinkedin
+                onClick={() =>
+                  linkClickHandler("https://www.linkedin.com/company/krisat/")
+                }
+              />
+              <IoMdMail
+                onClick={() => {
+                  window.open("mailto:admin@krisat.edu.in", "_self");
+                }}
+              />
             </Box>
             <Box>
               <Button className="footer-clg-code-btn">
