@@ -2,7 +2,12 @@ import React, { useRef, useState } from "react";
 import "./ImageSlider.scss";
 import Box from "@mui/material/Box";
 
-const ImageSlider = ({ images, activeIndex, setActiveIndex }) => {
+const ImageSlider = ({
+  images,
+  activeIndex,
+  setActiveIndex,
+  imageClickHandler,
+}) => {
   const sliderRef = useRef(null);
 
   const scrollToSlide = (index) => {
@@ -42,14 +47,19 @@ const ImageSlider = ({ images, activeIndex, setActiveIndex }) => {
           </button>
           <div className="slider-container" ref={sliderRef}>
             {images.map((image, index) => (
-              <div style={{
-                display: 'flex',
-                flexDirection: 'column',
-                justifyContent: 'center',
-                alignItems: 'center'
-              }}>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
                 <div
-                  onClick={() => setActiveIndex(index)}
+                  onClick={() => {
+                    setActiveIndex(index);
+                    imageClickHandler(image);
+                  }}
                   key={index}
                   className={`slider-item ${
                     index === activeIndex ? "active" : ""
@@ -62,10 +72,16 @@ const ImageSlider = ({ images, activeIndex, setActiveIndex }) => {
                   />
                 </div>
                 <div className="slider-content">
-                  {index !== activeIndex && <span style={{
-                    fontSize: '16px',
-                    color: '#77A24A'
-                  }}>{image.label}</span>}
+                  {index !== activeIndex && (
+                    <span
+                      style={{
+                        fontSize: "16px",
+                        color: "#77A24A",
+                      }}
+                    >
+                      {image.label}
+                    </span>
+                  )}
                 </div>
               </div>
             ))}
