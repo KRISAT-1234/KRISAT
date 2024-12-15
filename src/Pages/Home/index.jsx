@@ -15,7 +15,8 @@ import SendIcon from '@mui/icons-material/Send';
 import PhotoGallery from "../../Components/Gallery/PhotoGallery";
 import NewsLetterLabel from "../../Components/NewsLetterLabel/NewsLetterLabel";
 import { useNavigate } from "react-router-dom";
-import HomeContent from "../../Services/utils/json/HomeContent";
+//import HomeContent from "../../Services/utils/json/HomeContent";
+import HomeContent from "../../services/utils/json/HomeContent"
 import VideoPlayer from "../../Components/VideoPlayer/VideoPlayer";
 
 const Home = () => {
