@@ -57,14 +57,13 @@ const PhotoGallery = () => {
         >
           <Box className="gallery-box-parent">
             <CalendarComponent date={photos[0] ? moment(photos[0]?.date).format("MMM DD yyyy") : ""} />
-            <CollectionNameComponent collectionName="COLLECTIVE FARMING" />
+            <CollectionNameComponent collectionName={photos[0]?.label?.toUpperCase()} />
             <img
               style={{
                 height: "25vh",
                 width: "520px",
               }}
               className="gallery-img gallery-img-first"
-              // src={`https://images.unsplash.com/photo-1519710164239-da123dc03ef4`}
               src={photos[0]?.src}
               loading="lazy"
             />
@@ -77,28 +76,26 @@ const PhotoGallery = () => {
           >
             <Box className="gallery-box-parent">
               <CalendarComponent date={photos[1] ? moment(photos[1]?.date).format("MMM DD yyyy") : ""} />
-              <CollectionNameComponent collectionName="UGC HANDBOOK" />
+              <CollectionNameComponent collectionName={photos[1]?.label?.toUpperCase()} />
               <img
                 className="gallery-img gallery-img-second"
                 style={{
                   height: "25vh",
                   width: "250px",
                 }}
-                // src={`https://images.unsplash.com/photo-1519710164239-da123dc03ef4`}
                 src={photos[1]?.src}
                 loading="lazy"
               />
             </Box>
             <Box className="gallery-box-parent">
               <CalendarComponent date={photos[2] ? moment(photos[2]?.date).format("MMM DD yyyy") : ""} />
-              <CollectionNameComponent collectionName="CONVOCATION 2024" />
+              <CollectionNameComponent collectionName={photos[2]?.label?.toUpperCase()} />
               <img
                 className="gallery-img gallery-img-third"
                 style={{
                   height: "25vh",
                   width: "250px",
                 }}
-                // src={`https://images.unsplash.com/photo-1519710164239-da123dc03ef4`}
                 src={photos[2]?.src}
                 loading="lazy"
               />
@@ -107,14 +104,13 @@ const PhotoGallery = () => {
         </Box>
         <Box className="gallery-box-parent">
           <CalendarComponent date={photos[3] ? moment(photos[3]?.date).format("MMM DD yyyy") : ""} />
-          <CollectionNameComponent collectionName="ANUAL DAY 2023" />
+          <CollectionNameComponent collectionName={photos[3]?.label?.toUpperCase()} />
           <img
             className="gallery-img vertical-img"
             style={{
               height: "50vh",
               width: "250px",
             }}
-            // src={`https://images.unsplash.com/photo-1519710164239-da123dc03ef4`}
             src={photos[3]?.src}
             loading="lazy"
           />
