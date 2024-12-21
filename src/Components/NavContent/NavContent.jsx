@@ -2,6 +2,7 @@ import React from "react";
 import navContent from "../../Services/utils/json/navContent";
 import ReactHtmlParser from "react-html-parser";
 import "./navContent.scss";
+import Faculty from "../Faculty/Faculty";
 
 const NavContent = ({ heading }) => {
   const {
@@ -30,7 +31,7 @@ const NavContent = ({ heading }) => {
     sports,
     hostelRules,
     collegeRules,
-    academicRules
+    academicRules,
   } = navContent();
   return (
     <div className="nav-content">
@@ -63,6 +64,7 @@ const NavContent = ({ heading }) => {
       {heading === "Hostel Rules" && ReactHtmlParser(hostelRules.content)}
       {heading === "College Rules" && ReactHtmlParser(collegeRules.content)}
       {heading === "Academic Rules" && ReactHtmlParser(academicRules.content)}
+      {heading === "Faculty" && <Faculty />}
     </div>
   );
 };
