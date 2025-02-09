@@ -2,13 +2,19 @@
     h2 {
         color: #b6753c;
         font-weight: 400;
+        font-size: 1.5rem;
     }
     p {
         text-align: justify;
         font-size: 1vw;
-        font-family: 'ebrima';
+        // font-family: 'ebrima';
         color: #2e2d2c;
         padding-bottom: 10px;
+    }
+    ol {
+        li {
+            font-size: 1.3rem;
+        }
     }
     ul 
     {
@@ -17,6 +23,7 @@
             color: #2e2d2c;
             text-align: justify;
             margin-left: 3vw;
+            font-size: 1vw;
         }
         li::marker {
             color: green;
@@ -35,7 +42,7 @@
         font-weight: 500;
     }
     p {
-        font-size: 0.7vw;
+        font-size: 1vw;
     }
 }
 
