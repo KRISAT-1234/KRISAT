@@ -44,17 +44,6 @@ const Faculty = () => {
     setValue(newValue);
   };
 
-  const photos = [
-    "https://picsum.photos/id/237/300/200", // Random dog photo
-    "https://picsum.photos/id/238/300/200", // Another random photo
-    "https://picsum.photos/id/239/300/200", // More random photo
-    "https://picsum.photos/id/240/300/200",
-    "https://picsum.photos/id/241/300/200",
-    "https://picsum.photos/id/242/300/200",
-    "https://picsum.photos/id/243/300/200",
-    "https://picsum.photos/id/244/300/200",
-  ];
-
   return (
     <Box sx={{ width: "100%" }}>
       <Box sx={{ borderBottom: 1, borderColor: "divider" }}>

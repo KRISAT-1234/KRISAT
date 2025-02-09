@@ -25,7 +25,7 @@ const Footer = () => {
       <footer>
         <Box className="footer-first-item">
           <Box className="footer-clg-icon">
-            <ClgIcon width="70" height="70" />
+            <ClgIcon />
             <Box className="footer-clg-name">
               <h2>Krishna College of Agriclture & Technology</h2>
               <h5>Affiliated to Tamil Nadu Agricultural University</h5>
@@ -55,20 +55,39 @@ const Footer = () => {
             <Box className="footer-quick-links">
               <span className="footer-quick-links-header">Quick Links</span>
               <ul className="footer-quick-links-ul">
-                <li>Academics Activities</li>
-                <li>Rules and Regulations</li>
-                <li>Nursery</li>
-                <li>Farm</li>
+                <a href="/KRISAT/AcademicActivities/0">
+                  {" "}
+                  <li>Academics Activities</li>{" "}
+                </a>
+                <a href="/KRISAT/RulesRegulations/0">
+                  {" "}
+                  <li>Rules and Regulations</li>{" "}
+                </a>
+                <a href="/KRISAT/Nursery/0">
+                  {" "}
+                  <li>Nursery</li>{" "}
+                </a>
+                <a href="/KRISAT/Farming/0">
+                  {" "}
+                  <li>Farm</li>{" "}
+                </a>
               </ul>
             </Box>
             <Box className="footer-academics">
               <span className="footer-academics-header">Academics</span>
               <ul className="footer-academics-ul">
-                <li>Departments</li>
-                <li>Admissions</li>
-                <li>Student life</li>
-                <li>Research</li>
-                <li>Alumni</li>
+                <a href="/KRISAT/Academics/0">
+                  {" "}
+                  <li>Courses Offered</li>{" "}
+                </a>
+                <a href="/KRISAT/Academics/1">
+                  {" "}
+                  <li>Faculty</li>{" "}
+                </a>
+                <a href="/KRISAT/Academics/2">
+                  {" "}
+                  <li>College Library</li>{" "}
+                </a>
               </ul>
             </Box>
           </Box>
@@ -106,7 +125,7 @@ const Footer = () => {
         <Box className="footer-third-item">
           <Box className="footer-copy-right">
             <FaCopyright />
-            <span>All rights reserved, 2024@KRISAT</span>
+            <span>All rights reserved, 2025@KRISAT</span>
           </Box>
           <span>Terms of use</span>
           <span>Privacy policy</span>

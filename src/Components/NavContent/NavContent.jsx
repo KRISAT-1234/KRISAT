@@ -3,6 +3,13 @@ import navContent from "../../Services/utils/json/navContent";
 import ReactHtmlParser from "react-html-parser";
 import "./navContent.scss";
 import Faculty from "../Faculty/Faculty";
+import Hostel from "../LifeKrisat/Hostel/Hostel";
+import Sports from "../LifeKrisat/Hostel/Sports/Sports";
+import ImageGallery from "../InnerNavGallery/ImageGallery";
+import Cultural1 from "../../Assets/Images/Culturals/culturals1.jpg";
+import Cultural2 from "../../Assets/Images/Culturals/culturals2.jpg";
+import Cultural3 from "../../Assets/Images/Culturals/culturals3.jpg";
+import Cultural4 from "../../Assets/Images/Culturals/culturals4.jpg";
 
 const NavContent = ({ heading }) => {
   const {
@@ -57,10 +64,15 @@ const NavContent = ({ heading }) => {
       {heading === "Orchard" && ReactHtmlParser(orchard.content)}
       {heading === "Garden Land" && ReactHtmlParser(gardenLand.content)}
       {heading === "Dry Land" && ReactHtmlParser(dryLand.content)}
-      {heading === "Hostel" && ReactHtmlParser(hostel.content)}
+      {heading === "Hostel" && <Hostel />}
       {heading === "Infrastructure" && ReactHtmlParser(infras.content)}
-      {heading === "Culturals" && ReactHtmlParser(culturals.content)}
-      {heading === "Sports Activities" && ReactHtmlParser(sports.content)}
+      {heading === "Culturals" && (
+        <>
+          <br />
+          <ImageGallery images={[Cultural1, Cultural2, Cultural3, Cultural4]} />
+        </>
+      )}
+      {heading === "Sports Activities" && <Sports />}
       {heading === "Hostel Rules" && ReactHtmlParser(hostelRules.content)}
       {heading === "College Rules" && ReactHtmlParser(collegeRules.content)}
       {heading === "Academic Rules" && ReactHtmlParser(academicRules.content)}

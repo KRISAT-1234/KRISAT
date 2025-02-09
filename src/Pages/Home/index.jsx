@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.scss";
 import content1 from "../../Assets/Images/1088523.jpg";
 import banner from "../../Assets/Images/KRISAT.png";
-import logo from "../../Assets/Images/logo/clgLogo.png";
+import ClgIcon from "../../Assets/Icons/ClgIcon";
 import {
   Card,
   CardActions,
@@ -17,6 +17,7 @@ import NewsLetterLabel from "../../Components/NewsLetterLabel/NewsLetterLabel";
 import { useNavigate } from "react-router-dom";
 import HomeContent from "../../Services/utils/json/HomeContent";
 import VideoPlayer from "../../Components/VideoPlayer/VideoPlayer";
+import VideoSource from "../../Assets/Videos/COLLAGE_OUT.mp4";
 
 const Home = () => {
   const { aboutContent } = HomeContent();
@@ -26,7 +27,7 @@ const Home = () => {
     <>
       <div className="home-banner">
         <div className="banner-inner-section">
-          <img src={logo} alt="logo" />
+          <ClgIcon />
           <span className="banner-content">
             <h1>Sowing Seeds of Future</h1>
             <p>
@@ -45,7 +46,7 @@ const Home = () => {
           EXPLORE &nbsp;{" "}
         </Button>
       </div>
-      <VideoPlayer videoSrc="http://media.w3.org/2010/05/sintel/trailer.mp4" />
+      <VideoPlayer videoSrc={VideoSource} />
       <div className="home-about">
         <div className="about-heading">
           <h2>About KRISAT</h2>

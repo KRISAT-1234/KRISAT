@@ -31,10 +31,10 @@ const ContentData = () => {
     Academics: [
       "Courses Offered",
       "Faculty",
-      "Academic Calendar",
-      "Class Timetable",
+      // "Academic Calendar",
+      // "Class Timetable",
       "College Library",
-      "Instructional Exam",
+      // "Instructional Exam",
     ],
     "Academic Activities": [
       "NSS Programs",
@@ -49,7 +49,7 @@ const ContentData = () => {
       "Sports Activities",
       "Culturals",
       "Grievance",
-      "Infrastructure",
+      // "Infrastructure",
     ],
     Nursery: [
       "Indoor Planting",
