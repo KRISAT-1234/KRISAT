@@ -141,11 +141,11 @@ const Header = (props) => {
                 <span className="sub-menus">
                   {navItems.map((item, index) => (
                     <Button
-                      key={item}
-                      onClick={() => nav(`${item}`)}
+                      key={item.route}
+                      onClick={() => nav(`${item.route}`)}
                       className="header-nav"
                     >
-                      <h3>{item}</h3>
+                      <h3>{item.label}</h3>
                       {index < navItems.length - 1 && <h2>|</h2>}
                     </Button>
                   ))}

@@ -59,7 +59,11 @@ const HeaderData = () => {
     "Rules & Regulations": ["Academic Rules", "College Rules", "Hostel Rules"],
   };
 
-  const navItems = ["Home", "About", "Contact"];
+  const navItems = [
+    { label: "Home", route: "/" },
+    { label: "About", route: "/AboutUs/1" },
+    { label: "Courses", route: "/Academics/0" },
+  ];
 
   return {
     mainNav,
