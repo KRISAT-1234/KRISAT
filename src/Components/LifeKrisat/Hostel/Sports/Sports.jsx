@@ -1,7 +1,9 @@
 import React from "react";
 import ImageGallery from "../../../InnerNavGallery/ImageGallery";
-import Sport1 from "../../../../Assets/Images/Sports/sports1.jpg";
-import Sport2 from "../../../../Assets/Images/Sports/sports2.png";
+import Cultural1 from "../../../../Assets/Images/Culturals/culturals1.jpg";
+import Cultural2 from "../../../../Assets/Images/Culturals/culturals2.jpg";
+import Cultural3 from "../../../../Assets/Images/Culturals/culturals3.jpg";
+import Cultural4 from "../../../../Assets/Images/Culturals/culturals4.jpg";
 
 const Sports = () => {
   return (
@@ -317,13 +319,7 @@ const Sports = () => {
         </tbody>{" "}
       </table>{" "}
       <br />
-      <p>
-        The institution offers well-equipped hostel facilities, featuring a
-        total of 172 rooms that accommodate both boys and girls, along with
-        warden rooms, office spaces, and guest rooms.
-      </p>
-      <br />
-      <ImageGallery images={[Sport1, Sport2]} />
+      <ImageGallery images={[Cultural1, Cultural2, Cultural3, Cultural4]} />
     </div>
   );
 };

@@ -61,7 +61,7 @@ const Faculty = () => {
         >
           <Tab label="Teaching faculty" {...a11yProps(0)} />
           <Tab label="Non-teaching faculty" {...a11yProps(1)} />
-          <Tab label="Farmer staff" {...a11yProps(2)} />
+          {/* <Tab label="Farmer staff" {...a11yProps(2)} /> */}
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
@@ -120,9 +120,9 @@ const Faculty = () => {
           ))}
         </div>
       </CustomTabPanel>
-      <CustomTabPanel value={value} index={2}>
+      {/* <CustomTabPanel value={value} index={2}>
         Coming soon...
-      </CustomTabPanel>
+      </CustomTabPanel> */}
     </Box>
   );
 };

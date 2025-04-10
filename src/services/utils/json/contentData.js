@@ -46,9 +46,9 @@ const ContentData = () => {
     ],
     "Life @ KRISAT": [
       "Hostel",
-      "Sports Activities",
       "Culturals",
-      "Grievance",
+      "Sports Activities",
+      // "Grievance",
       // "Infrastructure",
     ],
     Nursery: [

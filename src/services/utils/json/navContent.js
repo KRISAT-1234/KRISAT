@@ -5,12 +5,12 @@ const navContent = () => {
   };
   const aboutKrisat = {
     content:
-      "</br><p>Krishna College of Agriculture and Technology (KRISAT), affiliated with Tamil Nadu Agricultural University (TNAU), was established with a clear mission: to address the increasing global, national, and regional demand for agro-based food production by leveraging cutting-edge technologies. KRISAT aims to develop technically proficient farm graduates who can effectively implement these technologies in the sustainable production of food, feed, fibre, and fuel (biomass).<br/><br/>Inaugurated on August 5, 2016, KRISAT commenced operations in the academic year 2016-17, situated on a sprawling 56-hectare campus. The college is nestled in a scenic valley, surrounded by hills and adorned with diverse greenery, including herbs, trees, and climbers. The campus boasts rich biodiversity, serving as a habitat for various animals, birds, reptiles, amphibians, butterflies, insects, and honeybees, making it a vibrant and eco-friendly environment for learning and research.</p>",
+      "</br><p>Krishna College of Agriculture and Technology (KRISAT), affiliated with Tamil Nadu Agricultural University (TNAU), was established with a clear mission; to address the increasing global, national, and regional demand for agro-based food production by leveraging cutting-edge technologies. KRISAT aims to develop technically proficient farm graduates who can effectively implement these technologies in the sustainable production of food, feed, fibre, and fuel (biomass).<br/><br/>Inaugurated on August 5, 2016, KRISAT commenced operations in the academic year 2016-17, situated on a sprawling 56-hectare campus. The college is nestled in a scenic valley, surrounded by hills and adorned with diverse greenery, including herbs, trees, and climbers. The campus boasts rich biodiversity, serving as a habitat for various animals, birds, reptiles, amphibians, butterflies, insects, and honeybees, making it a vibrant and eco-friendly environment for learning and research.</p>",
   };
   const missViss = {
     content: `</br>
     <h2>Vision</h2>
-    <p>KRISAT is dedicated to producing technically skilled agricultural graduates through quality education and modern tools, with a focus on promoting sustainable agricultural development and ensuring livelihood security for farming communities.</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;KRISAT is dedicated to producing technically skilled agricultural graduates through quality education and modern tools, with a focus on promoting sustainable agricultural development and ensuring livelihood security for farming communities.</p>
     <ul> 
       <li>We envision a future where India leads the world in agricultural innovation and sustainability.</li>  
       <li>Our mission is to empower our students and stakeholders to make meaningful contributions to agricultural advancement while preserving the health of our ecosystems.</li>
@@ -18,7 +18,7 @@ const navContent = () => {
     <p>We recognize that the well-being of future generations depends on the protection of our land, water, air, and soil. We are committed to shaping a future where agriculture thrives, ecosystems flourish, and communities prosper.</p>
     </br>
     <h2>Mission</h2>
-    <p>KRISAT is committed to creating, integrating, and sharing knowledge to enhance agricultural productivity, and uplift the economic prosperity and quality of life of society—especially the farming community—while preserving land, water, and air for future generations.</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;KRISAT is committed to creating, integrating, and sharing knowledge to enhance agricultural productivity, and uplift the economic prosperity and quality of life of society—especially the farming community—while preserving land, water, and air for future generations.</p>
     <ul>
       <li>Through a curriculum that emphasizes hands-on experience in diverse organic farming methods, KRISAT empowers agriculture graduates with a balanced approach that integrates ancient wisdom and modern innovations.</li>
       <li>Our mission includes nurturing planetary health, safeguarding farmers' prosperity, and advocating sustainable farming through social media.</li>
@@ -85,37 +85,37 @@ const navContent = () => {
 
   const animalHusb = {
     content:
-      "<br><ol><li><h5>Dairy Unit</h5><p>A modern intensive dairy unit has been established, housing approximately 71 cattles. To enhance the learning environment for students, various cattle breeds are maintained including Kangeyam, Crossbred Jersey, HF, Gir and Buffalo. The cattles are milched using milking machine. Additionally, the waste from the dairy unit is repurposed as nourishment for crops.</p></li><li><h5>Sheep and Goat Unit</h5><p>Mecheri sheep are reared under a semi-intensive system, consisting of 3 adult males and 36 adult females with a sex ratio of 1:12. Additionally, a goat farm houses 3 adult male and 38 adult female Tellicherry goats, providing students and visitors with valuable opportunities to learn about routine operations related to both goat and sheep farming.</p></li><li><h5>Piggery Unit</h5><p>A piggery unit is maintained with the Large White Yorkshire breed, housing 4 adult males and 14 adult females and 23 piglets. The pigs are fed concentrates and roughages daily to promote optimal growth and body weight gain. Swill feeding is practiced, using cleaned hostel food waste. Students gain hands-on experience in swine production and management through this unit.</p></li><li><h5>Poultry Unit</h5><p>The college operates a poultry farm with a floor space of 1200 square feet, where non-descript chickens are raised under a semi-intensive management system. A duck unit is also maintained alongside. The birds are allowed to forage during the day and are provided with poultry feed at night while being housed in cages.</p></li></ol>",
+      "<br><h3>“Raising livestock the responsible way”</h3></br><ol><li><h5>Dairy Unit</h5><p>A modern intensive dairy unit has been established, housing approximately 71 cattles. To enhance the learning environment for students, various cattle breeds are maintained including Kangeyam, Crossbred Jersey, HF, Gir and Buffalo. The cattles are milched using milking machine. Additionally, the waste from the dairy unit is repurposed as nourishment for crops.</p></li><li><h5>Sheep and Goat Unit</h5><p>Mecheri sheep are reared under a semi-intensive system, consisting of 3 adult males and 36 adult females with a sex ratio of 1:12. Additionally, a goat farm houses 3 adult male and 38 adult female Tellicherry goats, providing students and visitors with valuable opportunities to learn about routine operations related to both goat and sheep farming.</p></li><li><h5>Piggery Unit</h5><p>A piggery unit is maintained with the Large White Yorkshire breed, housing 4 adult males and 14 adult females and 23 piglets. The pigs are fed concentrates and roughages daily to promote optimal growth and body weight gain. Swill feeding is practiced, using cleaned hostel food waste. Students gain hands-on experience in swine production and management through this unit.</p></li><li><h5>Poultry Unit</h5><p>The college operates a poultry farm with a floor space of 1200 square feet, where non-descript chickens are raised under a semi-intensive management system. A duck unit is also maintained alongside. The birds are allowed to forage during the day and are provided with poultry feed at night while being housed in cages.</p></li></ol>",
   };
 
   const organicFarming = {
     content:
-      "<br><p>The college practices organic farming on 0.8 hectares, with certified approval. This approach helps maintain a healthy environment by reducing pollution levels and minimizing health hazards for both humans and animals by lowering residue levels in produce. Additionally, it contributes to sustainable agricultural production.</p>",
+      "<br><h3>“Organic isn’t a trend—it’s a return to roots”</h3></br><p>The college practices organic farming on 0.8 hectares, with certified approval. This approach helps maintain a healthy environment by reducing pollution levels and minimizing health hazards for both humans and animals by lowering residue levels in produce. Additionally, it contributes to sustainable agricultural production.</p>",
   };
 
   const wetland = {
     content:
-      "<br><h3>IFS unit for Wetland</h3><br><p>In a wetland setting, poultry and fish farming are integrated with crop cultivation on 1.21 hectares. The poultry shed is positioned above the pond and houses both ducks and hens. Students receive training in assessing the economics of this integrated farming system, comparing it to traditional cropping methods.</p>",
+      "<br><h3>“Drained too often, loved too little. Wetlands need our voice”</h3><br><p>We have cultivated rice and sorghum. Generally depending on their type and water levels wetlands can support a variety of crop, especially those that thrive in moist or waterlogged soils. Paddy, Millets and Pulses.</p>",
   };
 
   const orchard = {
     content:
-      "<br><p>Establishment of an orchard is a long term investment and deserves a very critical planning.Our orchard consists of Mango, Various citrus varieties, Aonla and Custard apple.The proper nutrient application, manuring and day today visits ensures that there are no pests and diseases, students visit the orchard for their practical classes.</p>",
+      "<br><h3>“The trees did their job—now it’s our turn to taste the magic”</h3></br><p>Establishment of an orchard is a long term investment and deserves a very critical planning.Our orchard consists of Mango, Various citrus varieties, Aonla and Custard apple.The proper nutrient application, manuring and day today visits ensures that there are no pests and diseases, students visit the orchard for their practical classes.</p>",
   };
 
   const gardenLand = {
     content:
-      "<br><h3>IFS unit for Garden land</h3><br><p>In a garden land setting, crops, dairy, and goat farming are integrated within a 5-hectare area. The livestock component of this integrated farming system includes 71 crossbred cows, 49 goats, and 39 sheep. Effective recycling of farm and animal waste is achieved through vermicomposting. Students also analyze the economics of this integrated farming approach in comparison to conventional cropping methods.</p>",
+      "<br><h3>“Garden land: where culture, soil and soul meet”</h3><br><p>The students for their crop production courses use the garden land in our campus. we have cultivated Sorghum, Maize and Ragi for crop production.</p>",
   };
 
   const dryLand = {
     content:
-      "<br><h3>IFS unit for Dry land</h3><br><p>In a dry land setting, crops, goats, cattle, and poultry are integrated over an area of 50 cents. Effective recycling of farm and animal waste is achieved through vermicomposting. Students explore both the theoretical and practical aspects of this integrated farming system (IFS) model.</p>",
+      "<br><h3>“Sustainability thrives where the earth is tough and the spirit tougher”</h3><br><p>The crops that need less water availability, drought resistant and have short growing seasons are chosen for dry land cultivation. Crops such as Sorghum, Maize, pulses, millets such as pearl millet and finger millet can be grown.</p></br><h4>IFS – new tab to be added below dryland</h4></br><p>It  is a holistic approach to farming where various agricultural activities are integrated on a single farm, aiming to optimize the use of resources and improve farm productivity, sustainability, and economic viability. It combines crop cultivation, livestock management, agroforestry, fish farming, and other activities in a way that they complement and support each other. We have established IFS unit at 5 cents comprising of crop (paddy), livestocks (duck,hen) and fish farming.</p>",
   };
 
   const infras = {
     content:
-      "<br><p>The infrastructure is constructed in 110 acre landscape with focus on sustainable environment. The area is 360 degree surrounded with elegant hillocks to let students dwell with nature.</p>",
+      "<br/><h3>Where innovation meets design—our campus is a masterpiece in the making.</h3><br><p>The infrastructure is constructed in 110 acre landscape with focus on sustainable environment. The area is 360 degree surrounded with elegant hillocks to let students dwell with nature.</p>",
   };
 
   const sports = {
@@ -137,6 +137,48 @@ const navContent = () => {
     content:
       "<br><h3>Rules and Regulations</h3> <ul><li>I will not go outside the Hostel after 6.30 p.m. without the permission from the Residential tutor/Warden.</li><li>I will inform and seek permission of the Residential tutor/Warden to chat with my parents or relatives who visit the hostel to see me.</li><li>I will maintain the sanctum sanctorum of the dining place and I will not take away hostel utensils like dining plates, water glasses, cups or any other hostel materials outside the mess.</li><li>I will read the reading materials, dailies and magazines, intended for common reading purpose, at the common place and will not take them to my room.</li><li>I will not watch the T.V. after 9.00 p.m. on any day of the week.</li><li>I will upkeep my room and the Hostel premises clean and tidy.</li><li>I will abide by the Hostel Rules and Regulations to maintain discipline in the hostel.</li><li>I will not indulge in ragging or teasing the other fresher or any other person.</li><li>Further I am solely responsible and accountable for any sort of disturbances to me through usage of electronic gadgets and net workings and for which I should be blamed and KRISAT Institution is not responsible and hence I will use electronic gadgets judiciously and sensibly</li></ul>",
   };
+
+  const library = {
+    content:
+      "<br><h3>In the library, we don’t just find books—we find our future</h3>",
+  };
+
+  const collegeView = {
+    content:
+      "</br><h3>Every peak reminds us  that the sky's the limit, ,Surrounded by knowledge and nature’s grandest views.</h3>",
+  };
+
+  const laboratories = {
+    content: "<br/><h3>Every experiment brings us one step closer to understanding the world.</h3>"
+  }
+
+  const observatory = {
+    content: "<br/><h3>From data to forecasts—weather science in action.</h3>"
+  }
+
+  const miRoom = {
+    content: "<br/><h3>Here to provide comfort, care, and wellness in every visit.</h3>"
+  }
+  
+  const smartClass = {
+    content: "<br/><h3>Interactive learning, limitless possibilities, Where technology meets education for a smarter tomorrow.</h3>"
+  }
+
+  const examHall = {
+    content: "<br/><h3>A test of knowledge, a triumph of effort.</h3>"
+  }
+
+  const cafeteria = {
+    content: "<br/><h3>Take a break, grab a bite and recharge.</h3>"
+  }
+
+  const gym = {
+    content: "<br/><h3>The pain you feel today will be the strength you feel tomorrow.</h3>"
+  }
+
+  const mess = {
+    content: "<br/><h3>When hunger strikes, the mess delivers comfort in every bite.</h3>"
+  }
 
   return {
     history,
@@ -160,11 +202,21 @@ const navContent = () => {
     dryLand,
     // hostel,
     infras,
+    library,
     // culturals,
     sports,
     hostelRules,
     collegeRules,
     academicRules,
+    collegeView,
+    laboratories,
+    observatory,
+    miRoom,
+    smartClass,
+    examHall,
+    cafeteria,
+    gym,
+    mess      
   };
 };
 

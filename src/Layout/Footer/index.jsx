@@ -32,6 +32,14 @@ const Footer = () => {
             </Box>
           </Box>
           <Box className="footer-clg-details">
+            <Box>
+              <Button className="footer-clg-code-btn">
+                AISHE CODE C-58305
+              </Button>
+            </Box>
+            <Box display={"flex"} alignItems={"center"}>
+              <span>Unique visitors: 78327</span>
+            </Box>
             <Box className="footer-clg-locations">
               <FaMapLocation width={50} height={50} />
               <Box className="footer-clg-address">
@@ -50,7 +58,7 @@ const Footer = () => {
           </Box>
         </Box>
         <Divider color="white" />
-        <Box className="footer-second-item">
+        {/* <Box className="footer-second-item">
           <Box className="footer-essential">
             <Box className="footer-quick-links">
               <span className="footer-quick-links-header">Quick Links</span>
@@ -120,7 +128,7 @@ const Footer = () => {
               <span>Unique visitors: 78327</span>
             </Box>
           </Box>
-        </Box>
+        </Box> */}
         <Divider variant="middle" color="white" />
         <Box className="footer-third-item">
           <Box className="footer-copy-right">
