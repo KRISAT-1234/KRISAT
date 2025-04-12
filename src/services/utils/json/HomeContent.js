@@ -11,7 +11,7 @@ const HomeContent = () => {
     url: "",
     link: {
       title: "",
-      url: ""
+      url: "/Facilities/1"
     },
     },
     {
@@ -23,7 +23,7 @@ const HomeContent = () => {
         url: "",
         link: {
         title: "",
-        url: "",
+        url: "/Facilities/0",
         },
     },
     {
@@ -34,7 +34,7 @@ const HomeContent = () => {
         url: "",
         link: {
         title: "Download Application Form",
-        url: "",
+        url: "/Academics/0",
         },
     }
   ];

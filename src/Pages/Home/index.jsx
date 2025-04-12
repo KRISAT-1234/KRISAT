@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.scss";
-import content1 from "../../Assets/Images/1088523.jpg";
-import banner from "../../Assets/Images/KRISAT.png";
+// import content1 from "../../Assets/Images/1088523.jpg";
+// import banner from "../../Assets/Images/KRISAT.png";
 import ClgIcon from "../../Assets/Icons/ClgIcon";
 import {
   Card,
@@ -12,8 +12,8 @@ import {
 } from "@mui/material";
 import { Button } from "rsuite";
 import SendIcon from "@mui/icons-material/Send";
-import PhotoGallery from "../../Components/Gallery/PhotoGallery";
-import NewsLetterLabel from "../../Components/NewsLetterLabel/NewsLetterLabel";
+// import PhotoGallery from "../../Components/Gallery/PhotoGallery";
+// import NewsLetterLabel from "../../Components/NewsLetterLabel/NewsLetterLabel";
 import { useNavigate } from "react-router-dom";
 import HomeContent from "../../Services/utils/json/HomeContent";
 import VideoPlayer from "../../Components/VideoPlayer/VideoPlayer";
@@ -41,7 +41,7 @@ const Home = () => {
           className="button"
           variant="contained"
           endIcon={<SendIcon />}
-          onClick={() => navigate("/LifeKRISAT/4")}
+          onClick={() => navigate("/LifeKRISAT/")}
         >
           EXPLORE &nbsp;{" "}
         </Button>
@@ -80,7 +80,11 @@ const Home = () => {
                     </Typography>
                   </CardContent>
                   <CardActions className="card-actions">
-                    <Button size="small" className="button">
+                    <Button
+                      size="small"
+                      className="button"
+                      onClick={() => navigate(content.link.url)}
+                    >
                       Learn More
                     </Button>
                   </CardActions>
@@ -90,8 +94,8 @@ const Home = () => {
           })}
         </div>
       </div>
-      <PhotoGallery />
-      <NewsLetterLabel />
+      {/* <PhotoGallery />
+      <NewsLetterLabel /> */}
     </>
   );
 };

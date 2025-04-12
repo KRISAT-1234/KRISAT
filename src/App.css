@@ -18,6 +18,10 @@ body {
   background-color: #F0ECEC;
   font-family: "Begum W03 Regular";
 }
+
+button:hover {
+  cursor: pointer;
+}
 /* .App {
   text-align: center;
 }
