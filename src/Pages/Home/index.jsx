@@ -95,8 +95,6 @@ const Home = () => {
           })}
         </div>
       </div>
-      <PhotoGallery />
-      <NewsLetterLabel />
       <AdmissionModal />
     </>
   );
