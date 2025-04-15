@@ -15,9 +15,10 @@ import SendIcon from "@mui/icons-material/Send";
 import PhotoGallery from "../../Components/Gallery/PhotoGallery";
 import NewsLetterLabel from "../../Components/NewsLetterLabel/NewsLetterLabel";
 import { useNavigate } from "react-router-dom";
-import HomeContent from "../../Services/utils/json/HomeContent";
+import HomeContent from "../../services/utils/json/HomeContent";
 import VideoPlayer from "../../Components/VideoPlayer/VideoPlayer";
 import VideoSource from "../../Assets/Videos/COLLAGE_OUT.mp4";
+import AdmissionModal from "../../Components/AdmissionModal/AdmissionModal";
 
 const Home = () => {
   const { aboutContent } = HomeContent();
@@ -92,6 +93,7 @@ const Home = () => {
       </div>
       <PhotoGallery />
       <NewsLetterLabel />
+      <AdmissionModal />
     </>
   );
 };
