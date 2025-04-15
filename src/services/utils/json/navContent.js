@@ -85,7 +85,7 @@ const navContent = () => {
 
   const animalHusb = {
     content:
-      "<br><h3>“Raising livestock the responsible way”</h3></br><ol><li><h5>Dairy Unit</h5><p>A modern intensive dairy unit has been established, housing approximately 71 cattles. To enhance the learning environment for students, various cattle breeds are maintained including Kangeyam, Crossbred Jersey, HF, Gir and Buffalo. The cattles are milched using milking machine. Additionally, the waste from the dairy unit is repurposed as nourishment for crops.</p></li><li><h5>Sheep and Goat Unit</h5><p>Mecheri sheep are reared under a semi-intensive system, consisting of 3 adult males and 36 adult females with a sex ratio of 1:12. Additionally, a goat farm houses 3 adult male and 38 adult female Tellicherry goats, providing students and visitors with valuable opportunities to learn about routine operations related to both goat and sheep farming.</p></li><li><h5>Piggery Unit</h5><p>A piggery unit is maintained with the Large White Yorkshire breed, housing 4 adult males and 14 adult females and 23 piglets. The pigs are fed concentrates and roughages daily to promote optimal growth and body weight gain. Swill feeding is practiced, using cleaned hostel food waste. Students gain hands-on experience in swine production and management through this unit.</p></li><li><h5>Poultry Unit</h5><p>The college operates a poultry farm with a floor space of 1200 square feet, where non-descript chickens are raised under a semi-intensive management system. A duck unit is also maintained alongside. The birds are allowed to forage during the day and are provided with poultry feed at night while being housed in cages.</p></li></ol>",
+      "<br><h3>“Raising livestock the responsible way”</h3></br><ol><li><h5>Dairy Unit</h5><p>A modern intensive dairy unit has been established, housing approximately 71 cattles. To enhance the learning environment for students, various cattle breeds are maintained including Kangeyam, Crossbred Jersey, HF, Gir and Buffalo. The cattles are milched using milking machine. Additionally, the waste from the dairy unit is repurposed as nourishment for crops.</p><br/><div class='image-gallery-diary'></div><br/></li><li><h5>Sheep and Goat Unit</h5><p>Mecheri sheep are reared under a semi-intensive system, consisting of 3 adult males and 36 adult females with a sex ratio of 1:12. Additionally, a goat farm houses 3 adult male and 38 adult female Tellicherry goats, providing students and visitors with valuable opportunities to learn about routine operations related to both goat and sheep farming.</p><br/><div class='image-gallery-sheep'></div><br/></li><li><h5>Piggery Unit</h5><p>A piggery unit is maintained with the Large White Yorkshire breed, housing 4 adult males and 14 adult females and 23 piglets. The pigs are fed concentrates and roughages daily to promote optimal growth and body weight gain. Swill feeding is practiced, using cleaned hostel food waste. Students gain hands-on experience in swine production and management through this unit.</p><br/><div class='image-gallery-pig'></div><br/></li><li><h5>Poultry Unit</h5><p>The college operates a poultry farm with a floor space of 1200 square feet, where non-descript chickens are raised under a semi-intensive management system. A duck unit is also maintained alongside. The birds are allowed to forage during the day and are provided with poultry feed at night while being housed in cages.</p><br/><div class='image-gallery-duck'></div><br/></li></ol>",
   };
 
   const organicFarming = {
@@ -110,7 +110,7 @@ const navContent = () => {
 
   const dryLand = {
     content:
-      "<br><h3>“Sustainability thrives where the earth is tough and the spirit tougher”</h3><br><p>The crops that need less water availability, drought resistant and have short growing seasons are chosen for dry land cultivation. Crops such as Sorghum, Maize, pulses, millets such as pearl millet and finger millet can be grown.</p></br><h4>IFS – new tab to be added below dryland</h4></br><p>It  is a holistic approach to farming where various agricultural activities are integrated on a single farm, aiming to optimize the use of resources and improve farm productivity, sustainability, and economic viability. It combines crop cultivation, livestock management, agroforestry, fish farming, and other activities in a way that they complement and support each other. We have established IFS unit at 5 cents comprising of crop (paddy), livestocks (duck,hen) and fish farming.</p>",
+      "<br><h3>“Sustainability thrives where the earth is tough and the spirit tougher”</h3><br><p>The crops that need less water availability, drought resistant and have short growing seasons are chosen for dry land cultivation. Crops such as Sorghum, Maize, pulses, millets such as pearl millet and finger millet can be grown.</p>",
   };
 
   const infras = {
@@ -149,36 +149,91 @@ const navContent = () => {
   };
 
   const laboratories = {
-    content: "<br/><h3>Every experiment brings us one step closer to understanding the world.</h3>"
-  }
+    content:
+      "<br/><h3>Every experiment brings us one step closer to understanding the world.</h3>",
+  };
 
   const observatory = {
-    content: "<br/><h3>From data to forecasts—weather science in action.</h3>"
-  }
+    content: "<br/><h3>From data to forecasts—weather science in action.</h3>",
+  };
 
   const miRoom = {
-    content: "<br/><h3>Here to provide comfort, care, and wellness in every visit.</h3>"
-  }
-  
+    content:
+      "<br/><h3>Here to provide comfort, care, and wellness in every visit.</h3>",
+  };
+
   const smartClass = {
-    content: "<br/><h3>Interactive learning, limitless possibilities, Where technology meets education for a smarter tomorrow.</h3>"
-  }
+    content:
+      "<br/><h3>Interactive learning, limitless possibilities, Where technology meets education for a smarter tomorrow.</h3>",
+  };
 
   const examHall = {
-    content: "<br/><h3>A test of knowledge, a triumph of effort.</h3>"
-  }
+    content: "<br/><h3>A test of knowledge, a triumph of effort.</h3>",
+  };
 
   const cafeteria = {
-    content: "<br/><h3>Take a break, grab a bite and recharge.</h3>"
-  }
+    content: "<br/><h3>Take a break, grab a bite and recharge.</h3>",
+  };
 
   const gym = {
-    content: "<br/><h3>The pain you feel today will be the strength you feel tomorrow.</h3>"
-  }
+    content:
+      "<br/><h3>The pain you feel today will be the strength you feel tomorrow.</h3>",
+  };
 
   const mess = {
-    content: "<br/><h3>When hunger strikes, the mess delivers comfort in every bite.</h3>"
-  }
+    content:
+      "<br/><h3>When hunger strikes, the mess delivers comfort in every bite.</h3>",
+  };
+
+  const ifs = {
+    content:
+      "<br/><h3>IFS – new tab to be added below dryland</h3><br/><p>It is a holistic approach to farming where various agricultural activities are integrated on a single farm, aiming to optimize the use of resources and improve farm productivity, sustainability, and economic viability. It combines crop cultivation, livestock management, agroforestry, fish farming, and other activities in a way that they complement and support each other. We have established IFS unit at 5 cents comprising of crop (paddy), livestocks (duck,hen) and fish farming.</p>",
+  };
+
+  const climbers = {
+    content:
+      "<br/><h3>Let your dreams climb high, just like a vine searching for the sun.</h3><br/><div class='image-gallery-climbers'></div>",
+  };
+
+  const creepers = {
+    content:
+      "<br/><h3>Stay low, spread wide—true strength doesn’t always stand tall.</h3><br/><div class='image-gallery-creepers'></div>",
+  };
+
+  const flowers = {
+    content:
+      "<br/><h3>Where flowers bloom, so does hope.</h3><br/><div class='image-gallery-flowers'></div>",
+  };
+
+  const fruits = {
+    content:
+      "<br/><h3>The roots of hard work bear the sweetest fruit.</h3><br/><div class='image-gallery-fruits'></div>",
+  };
+
+  const indoor = {
+    content:
+      "<br/><h3>A little plant can make a big room feel alive.</h3><br/><div class='image-gallery-indoor'></div>",
+  };
+
+  const medicinalplants = {
+    content:
+      "<br/><h3>In every leaf, a remedy; in every herb, a healer</h3><br/><div class='image-gallery-medicinal'></div>",
+  };
+
+  const outdoorPlants = {
+    content:
+      "<br/><h3>Gardens are the purest of human pleasures.</h3><br/><div class='image-gallery-outdoor'></div>",
+  };
+
+  const shrubs = {
+    content:
+      "<br/><h3>Strong, silent, and always blooming—shrubs are nature’s quiet beauty.</h3><br/><div class='image-gallery-shrubs'></div>",
+  };
+
+  const trees = {
+    content:
+      "<br/><h3>The best time to plant a tree was 20 years ago. The second best time is now.</h3><br/><div class='image-gallery-trees'></div>",
+  };
 
   return {
     history,
@@ -200,6 +255,7 @@ const navContent = () => {
     orchard,
     gardenLand,
     dryLand,
+    ifs,
     // hostel,
     infras,
     library,
@@ -216,7 +272,16 @@ const navContent = () => {
     examHall,
     cafeteria,
     gym,
-    mess      
+    mess,
+    climbers,
+    creepers,
+    flowers,
+    fruits,
+    indoor,
+    medicinalplants,
+    outdoorPlants,
+    shrubs,
+    trees,
   };
 };
 

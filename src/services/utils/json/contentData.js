@@ -27,6 +27,7 @@ const ContentData = () => {
       "Orchard",
       "Garden Land",
       "Dry Land",
+      "IFS",
     ],
     Academics: [
       "Courses Offered",
@@ -52,11 +53,20 @@ const ContentData = () => {
       // "Infrastructure",
     ],
     Nursery: [
-      "Indoor Planting",
-      "Outdoor Planting",
-      "Crotons",
-      "Flower Plants",
-      "Hanging & Creeper",
+      // "Indoor Planting",
+      // "Outdoor Planting",
+      // "Crotons",
+      // "Flower Plants",
+      // "Hanging & Creeper",
+      "Climbers",
+      "Creepers",
+      "Flowers",
+      "Fruits",
+      "Indoor Plants",
+      "Medicinal Plants",
+      "Out Door Plants",
+      "Shrubs",
+      "Trees"
     ],
     "Rules & Regulations": ["Academic Rules", "College Rules", "Hostel Rules"],
   };
