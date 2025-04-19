@@ -187,7 +187,7 @@ const navContent = () => {
 
   const ifs = {
     content:
-      "<br/><h3>IFS – new tab to be added below dryland</h3><br/><p>It is a holistic approach to farming where various agricultural activities are integrated on a single farm, aiming to optimize the use of resources and improve farm productivity, sustainability, and economic viability. It combines crop cultivation, livestock management, agroforestry, fish farming, and other activities in a way that they complement and support each other. We have established IFS unit at 5 cents comprising of crop (paddy), livestocks (duck,hen) and fish farming.</p>",
+      "<br/><p>It is a holistic approach to farming where various agricultural activities are integrated on a single farm, aiming to optimize the use of resources and improve farm productivity, sustainability, and economic viability. It combines crop cultivation, livestock management, agroforestry, fish farming, and other activities in a way that they complement and support each other. We have established IFS unit at 5 cents comprising of crop (paddy), livestocks (duck,hen) and fish farming.</p>",
   };
 
   const climbers = {

@@ -90,6 +90,17 @@
                             font-weight: 700;
                         }
                     }
+                    .social-media {
+                        display: flex;
+                        a {
+                            color: white;
+                            .icon {
+                                height: 35px;
+                                width: 35px;
+                                margin-inline: 10px;
+                            }
+                        }
+                    }
                 }
                 .sub-menus {
                     display: flex;

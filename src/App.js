@@ -6,6 +6,7 @@ import About from "./Pages/About";
 import StaticTemplate from "./Layout/StaticTemplate";
 import ContentData from "./services/utils/json/ContentData";
 import Gallery from "./Pages/Gallery";
+import ContentData from "./services/utils/json/contentData";
 
 function App() {
   const { staticData } = ContentData();

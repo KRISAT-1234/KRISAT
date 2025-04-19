@@ -6,14 +6,14 @@ import { FaMapLocation } from "react-icons/fa6";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import EmailIcon from "@mui/icons-material/Email";
 import Divider from "@mui/material/Divider";
-import { AiFillInstagram } from "react-icons/ai";
-import { FaSquareFacebook } from "react-icons/fa6";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { TfiYoutube } from "react-icons/tfi";
-import { FaEarthAfrica } from "react-icons/fa6";
-import { IoMdMail } from "react-icons/io";
+// import { AiFillInstagram } from "react-icons/ai";
+// import { FaSquareFacebook } from "react-icons/fa6";
+// import { FaSquareXTwitter } from "react-icons/fa6";
+// import { TfiYoutube } from "react-icons/tfi";
+// import { FaEarthAfrica } from "react-icons/fa6";
+// import { IoMdMail } from "react-icons/io";
 import { FaCopyright } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
+// import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   const linkClickHandler = (url) => {

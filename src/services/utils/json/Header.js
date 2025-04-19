@@ -15,6 +15,7 @@ const HeaderData = () => {
       "Orchard",
       "Garden Land",
       "Dry Land",
+      "IFS",
     ],
     Academics: [
       "Courses Offered",
