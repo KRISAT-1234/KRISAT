@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, HashRouter } from "react-router-dom";
 import Layout from "./Layout/Main";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
@@ -11,7 +11,7 @@ function App() {
   const { staticData } = ContentData();
   return (
     <>
-      <Router basename="KRISAT">
+      <HashRouter basename="KRISAT">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route path="/" index element={<Home />}></Route>
@@ -101,7 +101,7 @@ function App() {
             />
           </Route>
         </Routes>
-      </Router>
+      </HashRouter>
     </>
   );
 }
