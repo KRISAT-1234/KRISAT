@@ -76,6 +76,7 @@ footer {
   display: flex;
   gap: 20px;
   padding: 10px;
+  flex-wrap: wrap;
 }
 
 .footer-quick-links-header,
@@ -214,7 +215,7 @@ footer {
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .footer-clg-details {
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
   .footer-clg-address {
