@@ -32,7 +32,7 @@ const AdmissionModal = () => {
 
   return (
     <div className="modal-overlay">
-      <div className="modal">
+      <div className="admission-modal">
         <button className="close-button" onClick={() => setIsOpen(false)}>
           &times;
         </button>

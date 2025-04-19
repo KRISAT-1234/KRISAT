@@ -1,7 +1,7 @@
 // Teaching faculty photos
 
 import Arpita from "../../Assets/Images/FacultyImages/TeachingFaculty/Arpita.png";
-import Deivasigamani from "../../Assets/Images/FacultyImages/TeachingFaculty/deivasigamani1.JPG";
+import Deivasigamani from "../../Assets/Images/FacultyImages/TeachingFaculty/deivasigamani1.jpg";
 import Glory from "../../Assets/Images/FacultyImages/TeachingFaculty/glory.jpeg";
 import Jebapreetha from "../../Assets/Images/FacultyImages/TeachingFaculty/jebapreetha1.jpeg";
 import Kalaiselvan from "../../Assets/Images/FacultyImages/TeachingFaculty/kalaiselvan.jpg";
@@ -34,7 +34,6 @@ import VimalRaj from "../../Assets/Images/FacultyImages/TeachingFaculty/vimalraj
 import Umabalan from "../../Assets/Images/FacultyImages/TeachingFaculty/umabalan.jpeg";
 
 // Teaching faculties resumes
-
 
 import DeivasigamaniResume from "../../Assets/Documents/TeachingFacultyResumes/deivasigamani1.pdf";
 import GloryResume from "../../Assets/Documents/TeachingFacultyResumes/glory.pdf";
@@ -76,7 +75,6 @@ import Sneka from "../../Assets/Images/FacultyImages/NonTeachingFaculty/sneka.jp
 import Varsha from "../../Assets/Images/FacultyImages/NonTeachingFaculty/varsha.jpeg";
 import Ponnarasi from "../../Assets/Images/FacultyImages/NonTeachingFaculty/ponnarasi.jpeg";
 
-
 // Non teaching faculties resumes
 
 import KamaliResume from "../../Assets/Documents/NonTeachinFaculyResumes/kamali.pdf";
@@ -92,21 +90,21 @@ const FacultyData = () => {
       name: "Dr. D. Jebapreetha",
       designation: "Associate Professor",
       major: "(Agric.Extension)",
-      resume: JebapreethaResume
+      resume: JebapreethaResume,
     },
     {
       image: Deivasigamani,
       name: "Dr. S. Deivasigamani",
       designation: "Associate Professor",
       major: "(Agronomy)",
-      resume: DeivasigamaniResume
+      resume: DeivasigamaniResume,
     },
     {
       image: Prasath,
       name: "Mr. S. Prasath",
       designation: "Assistant Professor",
       major: "(Soil Science and Agric. Chemistry)",
-      resume: PrasathResume
+      resume: PrasathResume,
     },
     // {
     //   image: Raghu,
@@ -119,49 +117,49 @@ const FacultyData = () => {
       name: "Mr. T. Krishnan",
       designation: "Librarian",
       major: "(Librarian Staff)",
-      resume: krishnanResume
+      resume: krishnanResume,
     },
     {
       image: Glory,
       name: "Ms. K. S. Glory",
       designation: "Assistant Professor",
       major: "(Soil Science and Agric. Chemistry)",
-      resume: GloryResume
+      resume: GloryResume,
     },
     {
       image: Santhosh,
       name: "Mr. A. Santhosh Kumar",
       designation: "Assistant professor",
       major: "(Agricultural Statistics)",
-      resume: SanthoshResume
+      resume: SanthoshResume,
     },
     {
       image: Prashath,
       name: "Mr. V. Prashath",
       designation: "Assistant professor",
       major: "(Horticulture)",
-      resume: PrashathResume
+      resume: PrashathResume,
     },
     {
       image: SankarDass,
       name: "Mr. E. Sankar Doss",
       designation: "Assistant Professor",
       major: "(Agricultural Economics)",
-      resume: SankarDassResume
+      resume: SankarDassResume,
     },
     {
       image: MaryFloret,
       name: "Dr. V. Mary Floret",
       designation: "Assistant Professor",
       major: "(Entomology)",
-      resume: MaryFloretResume
+      resume: MaryFloretResume,
     },
     {
       image: kumar,
       name: "Dr. R. Kumar",
       designation: "Assistant Professor",
       major: "(Plant Breeding & Genetics)",
-      resume: kumarResume
+      resume: kumarResume,
     },
     // {
     //   image: MohanaSundaram,
@@ -180,21 +178,21 @@ const FacultyData = () => {
       name: "Dr. P. Muneeshwari",
       designation: "Assistant Professor",
       major: "(Food Science & Nutrition)",
-      resume: MuneeshwariResume
+      resume: MuneeshwariResume,
     },
     {
       image: Pasupathi,
       name: "Dr. E. Pasupathi",
       designation: "Assistant Professor",
       major: "(Entomology)",
-      resume: PasupathiResume
+      resume: PasupathiResume,
     },
     {
       image: Srinath,
       name: "Dr. N. Srinath",
       designation: "Assistant Professor",
       major: "(Agricultural Economics)",
-      resume: SrinathResume
+      resume: SrinathResume,
     },
     // {
     //   image: Manikandan,
@@ -219,21 +217,21 @@ const FacultyData = () => {
       name: "Mr. Rajan L Fradlin Singh",
       designation: "Assistant Professor",
       major: "(Agricultural Microbiology)",
-      resume: RajanResume
+      resume: RajanResume,
     },
     {
       image: Kavitha,
       name: "Dr. S. Kavitha",
       designation: "Assistant Professor",
       major: "(Seed Science and Technology)",
-      resume: KavithaResume
+      resume: KavithaResume,
     },
     {
       image: PriyaDharshani,
       name: "Ms. M. Priyadharshini",
       designation: "Assistant Professor",
       major: "(Physical Education Staff)",
-      resume: PriyaDharshaniResume
+      resume: PriyaDharshaniResume,
     },
     // {
     //   image: Arpita,
@@ -246,63 +244,63 @@ const FacultyData = () => {
       name: "Ms. A. Priya Dharshini",
       designation: "Assistant Professor",
       major: "(Plant Physiology)",
-      resume: PriyaDharshiniResume
+      resume: PriyaDharshiniResume,
     },
     {
       image: Dinesh,
       name: "Mr. M. Dinesh Bhagavathy",
       designation: "Assistant Professor",
       major: "(Computer Science)",
-      resume: DineshResume
+      resume: DineshResume,
     },
     {
       image: Jayamurugan,
       name: "Mr. C. Jayamurugan",
       designation: "Assistant Professor",
       major: "(Plant Pathology)",
-      resume: JayamuruganResume
+      resume: JayamuruganResume,
     },
     {
       image: Vetrivendhan,
       name: "Mr. E. Vetrivendhan",
       designation: "Assistant Professor",
       major: "(Agronomy)",
-      resume: VetrivendhanResume
+      resume: VetrivendhanResume,
     },
     {
       image: AbdulRahman,
       name: "Mr. S. Abdul Rahuman",
       designation: "Assistant Professor",
       major: "(Horticulture)",
-      resume: AbdulRahmanResume
+      resume: AbdulRahmanResume,
     },
     {
       image: Jergin,
       name: "Dr. J. I. Jergin",
       designation: "Assistant Professor",
       major: "(Agriculture Extension)",
-      resume: JerginResume
+      resume: JerginResume,
     },
     {
       image: Gobika,
       name: "Ms. C. Gobika",
       designation: "Assistant Professor",
       major: "(Horticulture)",
-      resume: GobikaResume
+      resume: GobikaResume,
     },
     {
       image: VimalRaj,
       name: "Mr. R. Vimal Raj",
       designation: "Assistant Professor",
       major: "(Agronomy)",
-      resume: VimalRajResume
+      resume: VimalRajResume,
     },
     {
       image: Umabalan,
       name: "Mr. J. Umabalan",
       designation: "Assistant Professor",
       major: "(Plant Breeding)",
-      resume: UmabalanResume
+      resume: UmabalanResume,
     },
   ];
 
@@ -312,21 +310,21 @@ const FacultyData = () => {
       name: "Ms. B. Pavitra",
       designation: "Lab Assistant",
       major: "",
-      resume: PavitraResume
+      resume: PavitraResume,
     },
     {
       image: Shainy,
       name: "Ms. A. Shainy Staarlit",
       designation: "PA to Principal",
       major: "",
-      resume: ShainyResume
+      resume: ShainyResume,
     },
     {
       image: Ramakrishna,
       name: "Mr. B. Ramakrishnan",
       designation: "Field Assistant",
       major: "",
-      resume: RamakrishnaResume
+      resume: RamakrishnaResume,
     },
     // {
     //   image: Darshini,
@@ -357,34 +355,34 @@ const FacultyData = () => {
       name: "Ms. K. Kamali",
       designation: "Field Assistant",
       major: "",
-      resume: KamaliResume
+      resume: KamaliResume,
     },
     {
       image: Sneka,
       name: "Ms. K. Sneka",
       designation: "Lab Assistant",
       major: "",
-      resume: undefined
+      resume: undefined,
     },
     {
       image: Ponnarasi,
       name: "Ms. S. Ponnarasi",
       designation: "Technical Assistant",
       major: "",
-      resume: PonnarasiResume
+      resume: PonnarasiResume,
     },
     {
       image: Varsha,
       name: "Ms. M. Varsha",
       designation: "Office Assistant",
       major: "",
-      resume: undefined
+      resume: undefined,
     },
   ];
 
   return {
     teachingFaculty,
-    nonTechingFaculty
+    nonTechingFaculty,
   };
 };
 
