@@ -1,8 +1,8 @@
 import React from "react";
 import "./Home.scss";
-import content1 from "../../Assets/Images/1088523.jpg";
-import banner from "../../Assets/Images/KRISAT.png";
-import logo from "../../Assets/Images/logo/clgLogo.png";
+// import content1 from "../../Assets/Images/1088523.jpg";
+// import banner from "../../Assets/Images/KRISAT.png";
+import ClgIcon from "../../Assets/Icons/ClgIcon";
 import {
   Card,
   CardActions,
@@ -12,11 +12,13 @@ import {
 } from "@mui/material";
 import { Button } from "rsuite";
 import SendIcon from "@mui/icons-material/Send";
-import PhotoGallery from "../../Components/Gallery/PhotoGallery";
-import NewsLetterLabel from "../../Components/NewsLetterLabel/NewsLetterLabel";
+// import PhotoGallery from "../../Components/Gallery/PhotoGallery";
+// import NewsLetterLabel from "../../Components/NewsLetterLabel/NewsLetterLabel";
 import { useNavigate } from "react-router-dom";
-import HomeContent from "../../Services/utils/json/HomeContent";
+import HomeContent from "../../services/utils/json/HomeContent";
 import VideoPlayer from "../../Components/VideoPlayer/VideoPlayer";
+import VideoSource from "../../Assets/Videos/COLLAGE_OUT.mp4";
+import AdmissionModal from "../../Components/AdmissionModal/AdmissionModal";
 
 const Home = () => {
   const { aboutContent } = HomeContent();
@@ -26,7 +28,7 @@ const Home = () => {
     <>
       <div className="home-banner">
         <div className="banner-inner-section">
-          <img src={logo} alt="logo" />
+          <ClgIcon />
           <span className="banner-content">
             <h1>Sowing Seeds of Future</h1>
             <p>
@@ -40,12 +42,12 @@ const Home = () => {
           className="button"
           variant="contained"
           endIcon={<SendIcon />}
-          onClick={() => navigate("/LifeKRISAT/4")}
+          onClick={() => navigate("/LifeKRISAT/")}
         >
           EXPLORE &nbsp;{" "}
         </Button>
       </div>
-      <VideoPlayer videoSrc="http://media.w3.org/2010/05/sintel/trailer.mp4" />
+      <VideoPlayer videoSrc={VideoSource} />
       <div className="home-about">
         <div className="about-heading">
           <h2>About KRISAT</h2>
@@ -79,7 +81,11 @@ const Home = () => {
                     </Typography>
                   </CardContent>
                   <CardActions className="card-actions">
-                    <Button size="small" className="button">
+                    <Button
+                      size="small"
+                      className="button"
+                      onClick={() => navigate(content.link.url)}
+                    >
                       Learn More
                     </Button>
                   </CardActions>
@@ -89,8 +95,7 @@ const Home = () => {
           })}
         </div>
       </div>
-      <PhotoGallery />
-      <NewsLetterLabel />
+      <AdmissionModal />
     </>
   );
 };

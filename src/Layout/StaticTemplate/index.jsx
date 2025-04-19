@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Typography, Box } from "@mui/material";
 import { useNavigate, useParams } from "react-router-dom"; // Import useParams
 import "./staticTemplate.scss";
-import faci from "../../Assets/Images/img_infra.jpg";
 import Timeline from "@mui/lab/Timeline";
 import TimelineItem from "@mui/lab/TimelineItem";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
@@ -37,7 +36,7 @@ const StaticTemplate = ({ navItem, subNav, content }) => {
   return (
     <div className="layout">
       <div className="heading">
-        <h1>{navItem}</h1>
+        <h1>{content}</h1>
         <div className="content-layout">
           <div className="content-layout-left">
             <Timeline position="left">

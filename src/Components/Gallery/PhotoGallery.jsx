@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import { useNavigate } from "react-router-dom";
 import "./PhotoGallery.scss";
-import { PhotoContext } from "../../Services/Context/PhotoProvider";
+import { PhotoContext } from "../../services/Context/PhotoProvider";
 import moment from "moment";
 
 const CalendarComponent = ({ date }) => {

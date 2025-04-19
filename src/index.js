@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { PhotoContextProvider } from "./Services/Context/PhotoProvider";
+import { PhotoContextProvider } from "./services/Context/PhotoProvider";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <PhotoContextProvider>

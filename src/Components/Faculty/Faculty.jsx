@@ -44,17 +44,6 @@ const Faculty = () => {
     setValue(newValue);
   };
 
-  const photos = [
-    "https://picsum.photos/id/237/300/200", // Random dog photo
-    "https://picsum.photos/id/238/300/200", // Another random photo
-    "https://picsum.photos/id/239/300/200", // More random photo
-    "https://picsum.photos/id/240/300/200",
-    "https://picsum.photos/id/241/300/200",
-    "https://picsum.photos/id/242/300/200",
-    "https://picsum.photos/id/243/300/200",
-    "https://picsum.photos/id/244/300/200",
-  ];
-
   return (
     <Box sx={{ width: "100%" }}>
       <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
@@ -72,7 +61,7 @@ const Faculty = () => {
         >
           <Tab label="Teaching faculty" {...a11yProps(0)} />
           <Tab label="Non-teaching faculty" {...a11yProps(1)} />
-          <Tab label="Farmer staff" {...a11yProps(2)} />
+          {/* <Tab label="Farmer staff" {...a11yProps(2)} /> */}
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
@@ -131,9 +120,9 @@ const Faculty = () => {
           ))}
         </div>
       </CustomTabPanel>
-      <CustomTabPanel value={value} index={2}>
+      {/* <CustomTabPanel value={value} index={2}>
         Coming soon...
-      </CustomTabPanel>
+      </CustomTabPanel> */}
     </Box>
   );
 };

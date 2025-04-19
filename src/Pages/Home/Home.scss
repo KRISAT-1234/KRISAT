@@ -28,12 +28,12 @@
             padding: 2vw;
             img {
                 width: auto;
-                height: 8vh;
+                height: 10vh;
             }
             .banner-content {
                 width: 100vw;
                 h1 {
-                    font-size: 5vh;
+                    font-size: 4vh;
                     font-weight: 500;
                     color: #656565;
                 }
@@ -86,7 +86,7 @@
             }
             .banner-content {
                 h1 {
-                    font-size: 4.5vh;
+                    font-size: 4vh;
                 }
                 p {
                     display: block;
@@ -105,15 +105,15 @@
         height: 80vh;
         .banner-inner-section {
             img {
-                height: 15vh;
+                height: 11vh;
             }
             .banner-content {
                 h1 {
-                    font-size: 8vh;
+                    font-size: 5vh;
                 }
                 p {
-                    font-size: 3vh;
-                    line-height: 5vh;
+                    font-size: 2vh;
+                    line-height: 3vh;
 
                 }
             }
@@ -121,56 +121,6 @@
     }
 }
 
-// .home-banner {
-//     background-image: url('../../Assets/Images/KRISAT.png');
-//     background-repeat: no-repeat;
-//     background-size: contain;
-//     height: 100vh;
-//     background-position: center center;
-//     position: relative;
-//     .banner-inner-section {
-//         position: absolute;
-//         display: flex;
-//         padding: 3vw;
-//         width: 100vw;
-//         img {
-//             width: auto;
-//             height: 17vh;
-//         }
-//         .banner-content {
-//             display: flex;
-//             flex-direction: column;
-//             width: 50vw;
-//             padding-left: 1vw;
-//             h1 {
-//                 font-size: 7vh;
-//                 font-weight: 500;
-//                 color: #656565;
-//             }
-//             p {
-//                 width: 30vw;
-//                 font-size: 2.1vh;
-//                 line-height: 3.5vh;
-//                 font-weight: 750;
-//             }
-//         }
-//     }
-//     .button {
-//         position: absolute;
-//         padding: 1vw;
-//         border-radius: 25px;
-//         border: none;
-//         background-color: rgba($color: #fff, $alpha: 0.45);
-//         display: flex;
-//         align-items: center;
-//         color: white;
-//         font-size: 2vw;
-//         font-weight: 550;
-//         left: 44vw;
-//         justify-content: center;
-//         bottom: 2vw;
-//     }
-// }
 .home-about {
     display: flex;
     flex-direction: column;

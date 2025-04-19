@@ -51,34 +51,71 @@
         .header-top {
             .header-top-left {
                 img {
-                    width: 7vw !important;
+                    width: 6vw !important;
                     height: auto !important;
                     padding: 0 !important;
                 }
                 .header-college-name{
                     h1 {
-                        font-size: 2.2vw;
+                        font-size: 1.9vw;
                     }
                     h4 {
-                        font-size: 1.5vw;
+                        font-size: 1vw;
                     }
                 }
             }
             .header-top-right {
                 display: flex;
-                align-items: center;
-                width: 30%;
-                .header-nav{
-                    color: #fff;
-                    padding: 0.5vw;
-                    h3 {
-                        font-size: 1.7vw;
-                        margin-right: 2vw;
+                align-items: flex-end;
+                width: 80%;
+                flex-direction: column;
+                .enquiries {
+                    display: flex;
+                    align-items: center;
+                    p {
+                        font-weight: bold;
+                        font-size: 1vw;
                     }
-                    h2 {
-                        display: block;
-                        font-size: 1.7vw;
-                        margin-right: 2vw;
+                    .enquiry-info {
+                        display: flex;
+                        margin-left: 1rem;
+                        background: linear-gradient(120deg, green 48%, #bd7335 48%);
+                        .en-phone {
+                            padding: 0.2rem;
+                        }
+                        .en-mail {
+                            padding: 0.2rem;
+                        }
+                        p {
+                            font-weight: 700;
+                        }
+                    }
+                    .social-media {
+                        display: flex;
+                        a {
+                            color: white;
+                            .icon {
+                                height: 35px;
+                                width: 35px;
+                                margin-inline: 10px;
+                            }
+                        }
+                    }
+                }
+                .sub-menus {
+                    display: flex;
+                    .header-nav{
+                        color: #fff;
+                        padding: 0.5vw;
+                        h3 {
+                            font-size: 1.3vw;
+                            margin-right: 1vw;
+                        }
+                        h2 {
+                            display: block;
+                            font-size: 1.7vw;
+                            margin-right: 2vw;
+                        }
                     }
                 }
             }
@@ -88,19 +125,8 @@
         }
         .header-bottom {
             display: flex;
-            margin-top: 1vw;
             .nav-button {
                 font-size: 1vw;
-            }
-        }
-    }
-}
-
-@media (min-width: 975px) {
-    .header-toolbar {
-        .header-bottom {
-            .nav-button {
-                font-size: 1.2vw;
             }
         }
     }

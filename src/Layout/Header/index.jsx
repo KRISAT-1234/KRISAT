@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import InstagramIcon from "@mui/icons-material/Instagram";
 import "./Header.scss";
 import PropTypes from "prop-types";
 import AppBar from "@mui/material/AppBar";
@@ -19,8 +20,7 @@ import { useNavigate } from "react-router-dom";
 import ClgIcon from "../../Assets/Icons/ClgIcon";
 import { Menu, MenuItem } from "@mui/material";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-//import HeaderData from "../../Services/utils/json/Header";
-import HeaderData from "../../Services/utils/json/Header";
+import HeaderData from "../../services/utils/json/Header";
 
 const Header = (props) => {
   const { window } = props;
@@ -132,16 +132,34 @@ const Header = (props) => {
                 </Box>
               </span>
               <span className="header-top-right">
-                {navItems.map((item, index) => (
-                  <Button
-                    key={item}
-                    onClick={() => nav(`${item}`)}
-                    className="header-nav"
-                  >
-                    <h3>{item}</h3>
-                    {index < navItems.length - 1 && <h2>|</h2>}
-                  </Button>
-                ))}
+                <span className="enquiries">
+                  <p>For Enquiries</p>
+                  <span className="enquiry-info">
+                    <p className="en-phone">90959 00202/3/4/6</p>
+                    <p className="en-mail">admin@krisat.edu.in</p>
+                  </span>
+                  <span className="social-media">
+                    <a
+                      href="https://www.instagram.com/krisatagriculture?igsh=dG4xaWg2cWRwOWxy"
+                      target={"_blank"}
+                      title={"@krisatagriculture"}
+                    >
+                      <InstagramIcon className="icon" />
+                    </a>
+                  </span>
+                </span>
+                <span className="sub-menus">
+                  {navItems.map((item, index) => (
+                    <Button
+                      key={item.route}
+                      onClick={() => nav(`${item.route}`)}
+                      className="header-nav"
+                    >
+                      <h3>{item.label}</h3>
+                      {index < navItems.length - 1 && <h2>|</h2>}
+                    </Button>
+                  ))}
+                </span>
               </span>
               <IconButton
                 edge="end"

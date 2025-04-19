@@ -1,9 +1,13 @@
+* {
+    font-family: "Begum W03 Regular" !important;
+}
 .layout {
     display: flex;
     flex-direction: column;
+    min-height: 70vh;
 
     .heading {
-        padding: 1.5%;
+        padding: 1.5% 3%;
         color: #1F3A7E;
     }
 

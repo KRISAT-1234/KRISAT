@@ -3,7 +3,7 @@ import { Box } from "@mui/material";
 import "./Gallery.scss";
 import ImageSlider from "../../Components/ImageSlider/ImageSlider";
 import { IoIosCamera } from "react-icons/io";
-import { PhotoContext } from "../../Services/Context/PhotoProvider";
+import { PhotoContext } from "../../services/Context/PhotoProvider";
 import CommonModal from "../../Components/Common/Modal/Model";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";

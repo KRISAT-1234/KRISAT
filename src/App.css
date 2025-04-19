@@ -1,9 +1,26 @@
+@import url(https://db.onlinewebfonts.com/c/22e08e9cd2a72d3d02589e3033a3178e?family=Begum+W03+Regular);
+
+@font-face {
+  font-family: "Begum W03 Regular";
+  src: url("https://db.onlinewebfonts.com/t/22e08e9cd2a72d3d02589e3033a3178e.eot");
+  src: url("https://db.onlinewebfonts.com/t/22e08e9cd2a72d3d02589e3033a3178e.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/22e08e9cd2a72d3d02589e3033a3178e.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/22e08e9cd2a72d3d02589e3033a3178e.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/22e08e9cd2a72d3d02589e3033a3178e.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/22e08e9cd2a72d3d02589e3033a3178e.svg#Begum W03 Regular")format("svg");
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 body {
   background-color: #F0ECEC;
+  font-family: "Begum W03 Regular";
+}
+
+button:hover {
+  cursor: pointer;
 }
 /* .App {
   text-align: center;

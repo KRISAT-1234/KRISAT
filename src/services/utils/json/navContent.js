@@ -1,19 +1,43 @@
 const navContent = () => {
   const history = {
     content:
-      "</br><p>The Rukmani Ammal Educational and Charitable Trust in Dindigul District, Tamil Nadu was established with the vision of providing quality agricultural education to rural students in the vicinity of Madurai District. The Government of Tamil Nadu granted approval to establish the college.Following this, Tamil Nadu Agricultural University, Coimbatore, granted affiliation to the college thereby establishing Krishna College of Agriculture and Technology (KRISAT) as a private, unaided institution offering a B.Sc(Agriculture) degree. The college began operations in 2016 at Srirengapuram, Usilampatti Taluk, Madurai District. The institution is led by Founder Chairman and Managing Trustee Mr K. Chandrasekar, a prominent industrialist from Theni District, Tamil Nadu and is currently managed by Mr K. Chandrasekar as Managing Trustee, Mrs C. Santhanalakshmi as Trust Secretary and Mr K. Seenivasan as Trust Treasurer.</p>",
+      "</br><p>The Rukmani Ammal Educational and Charitable Trust in Dindigul District, Tamil Nadu was established with the vision of providing quality agricultural education to rural students in the vicinity of Madurai District. The Government of Tamil Nadu granted approval to establish the college.Following this, Tamil Nadu Agricultural University, Coimbatore, granted affiliation to the college thereby establishing Krishna College of Agriculture and Technology (KRISAT) as a private, unaided institution offering a B.Sc(Agriculture) degree. The college began operations in 2016 at Srirengapuram, Usilampatti Taluk, Madurai District. </br></br> The institution is led by Founder Chairman and Managing Trustee Mr K. Chandrasekar, a prominent industrialist from Theni District, Tamil Nadu and is currently managed by Mr K. Chandrasekar as Managing Trustee, Mrs C. Santhanalakshmi as Trust Secretary and Mr K. Seenivasan as Trust Treasurer.</p>",
   };
   const aboutKrisat = {
     content:
-      "</br><p>Krishna College of Agriculture and Technology(KRISAT) has been set with a mission to meet the growing demand for Agro-based food production globally across India and the world using the latest technology in food production.</p><p>With the increased demand for well-trained farm scientists to translate the latest technologies into reality in sustainable food, feed, fibre and fuel (biomass) production, we are prominent in budding smart agriculture professionals to meet the current and future food demands</p><p>With India opening its gate to WTO’s GATT and the Prime Minister’s Mission to enhance “Make in India” or the Reserve Bank Governor’s “Make for India” focus, there is an immense opportunity for local marketing within the country as well as export of value-added agricultural products to different countries of the world. For sustainable processing and value addition of farm produce, a number of new agro processing industries have to be developed in rural areas and this requires additional trained agricultural technologist and Agri-business experts.</p><p>Thus, Krishna College of Agriculture and Technology(KRISAT) aims at creating agricultural graduates with latest technology and inputs to create Green Revolution all over.</p>",
+      "</br><p>Krishna College of Agriculture and Technology (KRISAT), affiliated with Tamil Nadu Agricultural University (TNAU), was established with a clear mission; to address the increasing global, national, and regional demand for agro-based food production by leveraging cutting-edge technologies. KRISAT aims to develop technically proficient farm graduates who can effectively implement these technologies in the sustainable production of food, feed, fibre, and fuel (biomass).<br/><br/>Inaugurated on August 5, 2016, KRISAT commenced operations in the academic year 2016-17, situated on a sprawling 56-hectare campus. The college is nestled in a scenic valley, surrounded by hills and adorned with diverse greenery, including herbs, trees, and climbers. The campus boasts rich biodiversity, serving as a habitat for various animals, birds, reptiles, amphibians, butterflies, insects, and honeybees, making it a vibrant and eco-friendly environment for learning and research.</p>",
   };
   const missViss = {
-    content:
-      "</br><h2>Vision</h2><p>KRISAT’S vision is to provide technical education and skill development using modern and latest equipment to meet International standards.We envision a future where India leads the world in agricultural innovation and sustainability. Our commitment is steadfast, aiming to:</p><ul><li><b>Empower India's Agricultural Innovation: </b>As an Agriculture Ambassador, we empower our students and stakeholders to contribute meaningfully to the advancement of Agriculture.</li><li><b>Preserve the Health of Our Ecosystems: </b>We recognize the intrinsic link between the health of our land, water, air, and soil and the well-being of future generations.</li><li><b>Educate Farmers with Innovative Methods: </b>Our methods are not just theoretical; they are tried, tested, and tailored to the unique challenges facing modern Agriculture. These enhance profitability for the local farmers.</li><li><b>Foster International Collaboration: </b>Recognizing the value of global exchange and collaboration, through Tamil Nadu Agricultural University (TNAU), we actively engage with international institutions to share knowledge, expertise, and best practices.</li></ul></br><h2>Mission</h2><p>KRISAT's mission is to empower Agripreneurs through:</p><ul><li><b>Diverse Organic Farming Methods: </b>Tamil Nadu Agricultural University's (TNAU's) curriculum emphasizes hands-on experience in organic farming techniques. From permaculture to agroforestry, we explore a spectrum of farming practices, equipping our students with versatile tools to navigate modern agriculture.</li><li><b>Integration of Ancient and Modern Innovations: </b> Drawing from the wisdom of traditional farming practices and leveraging the latest technological advancements, allows us to cater to two fundamental principles: nurturing the health of our planet and safeguarding the prosperity of our farmers</li><li><b>Social Media Advocacy: </b> Through informative videos and posts, we leverage the power of social media to spread awareness about sustainable farming practices, bringing a positive change within our farming communities, stakeholders, as well as the public</li><li><b>Holistic Development: </b>Beyond technical expertise, we prioritize the holistic development of our students, fostering their leadership skills, communication skills, entrepreneurial spirit, social responsibility, and overall personality development.</li></ul>",
+    content: `</br>
+    <h2>Vision</h2>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;KRISAT is dedicated to producing technically skilled agricultural graduates through quality education and modern tools, with a focus on promoting sustainable agricultural development and ensuring livelihood security for farming communities.</p>
+    <ul> 
+      <li>We envision a future where India leads the world in agricultural innovation and sustainability.</li>  
+      <li>Our mission is to empower our students and stakeholders to make meaningful contributions to agricultural advancement while preserving the health of our ecosystems.</li>
+    </ul><br/>
+    <p>We recognize that the well-being of future generations depends on the protection of our land, water, air, and soil. We are committed to shaping a future where agriculture thrives, ecosystems flourish, and communities prosper.</p>
+    </br>
+    <h2>Mission</h2>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;KRISAT is committed to creating, integrating, and sharing knowledge to enhance agricultural productivity, and uplift the economic prosperity and quality of life of society—especially the farming community—while preserving land, water, and air for future generations.</p>
+    <ul>
+      <li>Through a curriculum that emphasizes hands-on experience in diverse organic farming methods, KRISAT empowers agriculture graduates with a balanced approach that integrates ancient wisdom and modern innovations.</li>
+      <li>Our mission includes nurturing planetary health, safeguarding farmers' prosperity, and advocating sustainable farming through social media.</li>
+      <li>We also prioritize the holistic development of students, fostering leadership, communication, entrepreneurship, social responsibility, and overall personal growth.</li>
+    </ul>`,
   };
   const govCoun = {
-    content:
-      "<ul><li>K Chandrasekar - Chairman</li><li>C Rajendran, IAS (Retd), formerly Addl. Secretary of Agriculture, Tamil Nadu Government</li><li>K Seenivasan, B, Sc. FCA Auditor</li><li>C Manivannan, Industrialist</li><li>Dr Siva, MBBS</li><li>Asst Director of Agriculture, Usilampatty,Madurai (Presently Mr.Thanuskodi,B.Sc.(Agric.))</li><li>Dr R Seenivasan, M. Sc. (Agri), Ph.D, Dy. General Manager, TNPL, Karur</li><li>Dr.V.Swaminathan, Professor and Head, Department of Horticulture, Agricultural College and Research Institute, TNAU, Madurai- 625104</li><li>Dr.V.K.Paulpandi, Ph.D., Professor and Head, Regional Research Station, Tamil Nadu Agricultural University, Aruppukkottai - 639117</li><li>The Dean, Agricultural College and Research Institute, Madurai- 625104 (presently Dr S Raghupathy, Ph.D.)</li><li>C Swaminathan, Dean, KRISAT (Ex. Officio Member) - Member Secretary</li></ul>",
+    content: `<br/><ul>
+        <li> K Chandrasekar - Chairman</li>
+        <li> C Rajendran, IAS (Retd), formerly Addl. Secretary, Agriculture</li>
+        <li> K Seenivasan, B, Sc. FCA Auditor</li>
+        <li> C Manivannan, Industrialist</li>
+        <li> Dr Siva, MBBS</li>
+        <li> Mr.Udhayakumar, Asst Director of Agriculture, Usilampatty,Madurai </li>  
+        <li> Dr.V.Swaminathan, (Retired Professor, Horticulture) </li>
+        <li> Dr.Venkatraman, (Retired Professor, Agronomy) </li>
+        <li> Mr.Palchamy, Farmer, Srirengapuram </li>
+        <li> Dr.V.K.Paulpandi, Member Secretary, Principal,KRISAT (Ex. Officio Member) </li>
+      </ul>`,
   };
 
   const boardMembers = {
@@ -26,7 +50,7 @@ const navContent = () => {
   };
   const crsOff = {
     content:
-      "</br><h2>B.Sc. (Hons) Agriculture</h2><h4>Course Duration: 4 years</h4></br><p>The foundation course in Agriculture is infused with hands-on training at our agricultural field. This base course lays a strong foundation in expanding your knowledge with well trained farm scientist to meet productive food demands.</p>",
+      "</br><h3>B.Sc. (Hons) Agriculture</h3><h3>Course Duration: 4 years</h3></br><p>The foundation course in Agriculture is infused with hands-on training at our agricultural field. This base course lays a strong foundation in expanding your knowledge with well trained farm scientist to meet productive food demands.</p>",
   };
 
   const nss = {
@@ -61,47 +85,37 @@ const navContent = () => {
 
   const animalHusb = {
     content:
-      "<br><ol><li><h5>Dairy Unit</h5><p>A modern intensive dairy unit has been established, housing approximately 71 cattles. To enhance the learning environment for students, various cattle breeds are maintained including Kangeyam, Crossbred Jersey, HF, Gir and Buffalo. The cattles are milched using milking machine. Additionally, the waste from the dairy unit is repurposed as nourishment for crops.</p></li><li><h5>Sheep and Goat Unit</h5><p>Mecheri sheep are reared under a semi-intensive system, consisting of 3 adult males and 36 adult females with a sex ratio of 1:12. Additionally, a goat farm houses 3 adult male and 38 adult female Tellicherry goats, providing students and visitors with valuable opportunities to learn about routine operations related to both goat and sheep farming.</p></li><li><h5>Piggery Unit</h5><p>A piggery unit is maintained with the Large White Yorkshire breed, housing 4 adult males and 14 adult females and 23 piglets. The pigs are fed concentrates and roughages daily to promote optimal growth and body weight gain. Swill feeding is practiced, using cleaned hostel food waste. Students gain hands-on experience in swine production and management through this unit.</p></li><li><h5>Poultry Unit</h5><p>The college operates a poultry farm with a floor space of 1200 square feet, where non-descript chickens are raised under a semi-intensive management system. A duck unit is also maintained alongside. The birds are allowed to forage during the day and are provided with poultry feed at night while being housed in cages.</p></li></ol>",
+      "<br><h3>“Raising livestock the responsible way”</h3></br><ol><li><h5>Dairy Unit</h5><p>A modern intensive dairy unit has been established, housing approximately 71 cattles. To enhance the learning environment for students, various cattle breeds are maintained including Kangeyam, Crossbred Jersey, HF, Gir and Buffalo. The cattles are milched using milking machine. Additionally, the waste from the dairy unit is repurposed as nourishment for crops.</p><br/><div class='image-gallery-diary'></div><br/></li><li><h5>Sheep and Goat Unit</h5><p>Mecheri sheep are reared under a semi-intensive system, consisting of 3 adult males and 36 adult females with a sex ratio of 1:12. Additionally, a goat farm houses 3 adult male and 38 adult female Tellicherry goats, providing students and visitors with valuable opportunities to learn about routine operations related to both goat and sheep farming.</p><br/><div class='image-gallery-sheep'></div><br/></li><li><h5>Piggery Unit</h5><p>A piggery unit is maintained with the Large White Yorkshire breed, housing 4 adult males and 14 adult females and 23 piglets. The pigs are fed concentrates and roughages daily to promote optimal growth and body weight gain. Swill feeding is practiced, using cleaned hostel food waste. Students gain hands-on experience in swine production and management through this unit.</p><br/><div class='image-gallery-pig'></div><br/></li><li><h5>Poultry Unit</h5><p>The college operates a poultry farm with a floor space of 1200 square feet, where non-descript chickens are raised under a semi-intensive management system. A duck unit is also maintained alongside. The birds are allowed to forage during the day and are provided with poultry feed at night while being housed in cages.</p><br/><div class='image-gallery-duck'></div><br/></li></ol>",
   };
 
   const organicFarming = {
     content:
-      "<br><p>The college practices organic farming on 0.8 hectares, with certified approval. This approach helps maintain a healthy environment by reducing pollution levels and minimizing health hazards for both humans and animals by lowering residue levels in produce. Additionally, it contributes to sustainable agricultural production.</p>",
+      "<br><h3>“Organic isn’t a trend—it’s a return to roots”</h3></br><p>The college practices organic farming on 0.8 hectares, with certified approval. This approach helps maintain a healthy environment by reducing pollution levels and minimizing health hazards for both humans and animals by lowering residue levels in produce. Additionally, it contributes to sustainable agricultural production.</p>",
   };
 
   const wetland = {
     content:
-      "<br><h4>IFS unit for Wetland</h4><br><p>In a wetland setting, poultry and fish farming are integrated with crop cultivation on 1.21 hectares. The poultry shed is positioned above the pond and houses both ducks and hens. Students receive training in assessing the economics of this integrated farming system, comparing it to traditional cropping methods.</p>",
+      "<br><h3>“Drained too often, loved too little. Wetlands need our voice”</h3><br><p>We have cultivated rice and sorghum. Generally depending on their type and water levels wetlands can support a variety of crop, especially those that thrive in moist or waterlogged soils. Paddy, Millets and Pulses.</p>",
   };
 
   const orchard = {
     content:
-      "<br><p>Establishment of an orchard is a long term investment and deserves a very critical planning.Our orchard consists of Mango, Various citrus varieties, Aonla and Custard apple.The proper nutrient application, manuring and day today visits ensures that there are no pests and diseases, students visit the orchard for their practical classes.</p>",
+      "<br><h3>“The trees did their job—now it’s our turn to taste the magic”</h3></br><p>Establishment of an orchard is a long term investment and deserves a very critical planning.Our orchard consists of Mango, Various citrus varieties, Aonla and Custard apple.The proper nutrient application, manuring and day today visits ensures that there are no pests and diseases, students visit the orchard for their practical classes.</p>",
   };
 
   const gardenLand = {
     content:
-      "<br><h4>IFS unit for Garden land</h4><br><p>In a garden land setting, crops, dairy, and goat farming are integrated within a 5-hectare area. The livestock component of this integrated farming system includes 71 crossbred cows, 49 goats, and 39 sheep. Effective recycling of farm and animal waste is achieved through vermicomposting. Students also analyze the economics of this integrated farming approach in comparison to conventional cropping methods.</p>",
+      "<br><h3>“Garden land: where culture, soil and soul meet”</h3><br><p>The students for their crop production courses use the garden land in our campus. we have cultivated Sorghum, Maize and Ragi for crop production.</p>",
   };
 
   const dryLand = {
     content:
-      "<br><h4>IFS unit for Dry land</h4><br><p>In a dry land setting, crops, goats, cattle, and poultry are integrated over an area of 50 cents. Effective recycling of farm and animal waste is achieved through vermicomposting. Students explore both the theoretical and practical aspects of this integrated farming system (IFS) model.</p>",
-  };
-
-  const hostel = {
-    content:
-      "<br> <p>We provide world class hostel facilities with spacious rooms. The hostel entrance is vast and greenly to go with the environment. The hostels are highly secure with experienced wardens and hostel staffs for students comfort living.</p> <h4>Boys Hostel</h4><br> <table><thead><tr> <td>S.No</td> <td>Hostel Name</td> <td>Three Sharing Rooms</td> <td>Four Sharing Rooms</td> <td>Capacity</td> <td>Ovvupancy</td> <td>Others</td> </tr></thead> <tbody><tr> <td>1</td> <td>Koutilya</td> <td>66</td> <td>4</td> <td>214</td> <td>103</td> <td><ul> <li>1 Deputy Warden Room</li> <li>1 Store Room</li> <li>1 Sick Room</li> <li>1 Newspaper Reading Room</li>  </ul></td> </tr></tbody> </table> <br> <h4>Girls Hostel</h4><br> <table><thead><tr> <td>S.No</td> <td>Hostel Name</td> <td>Three Sharing Rooms</td> <td>Four Sharing Rooms</td> <td>Capacity</td> <td>Ovvupancy</td> <td>Others</td> </tr></thead> <tbody><tr> <td>1</td> <td>Sangamitra</td> <td>4</td> <td>98</td> <td>102</td> <td>170</td> <td><ul> <li>2 Deputy Warden Room</li> <li>1 Store Room</li> <li>1 Sick Room</li> <li>1 Newspaper Reading Room</li>  </ul></td> </tr></tbody> </table>",
+      "<br><h3>“Sustainability thrives where the earth is tough and the spirit tougher”</h3><br><p>The crops that need less water availability, drought resistant and have short growing seasons are chosen for dry land cultivation. Crops such as Sorghum, Maize, pulses, millets such as pearl millet and finger millet can be grown.</p>",
   };
 
   const infras = {
     content:
-      "<br><p>The infrastructure is constructed in 110 acre landscape with focus on sustainable environment. The area is 360 degree surrounded with elegant hillocks to let students dwell with nature.</p>",
-  };
-
-  const culturals = {
-    content:
-      "<br><p>Cultural centers on college campuses significantly enhance student learning by fostering leadership development, community engagement, cultural identity, and a sense of belonging—all vital components of the learning process. Recognizing this importance, KRISAT has established a cultural center that provides students with a platform for self-expression and personal growth.<br><br>   A senior faculty member serves as the Staff Advisor, while a faculty member is appointed as the Assistant Staff Advisor by the Principal. The Staff Advisor plays a crucial role in organizing students' welfare and extra-curricular activities. Faculty members from various disciplines act as coordinators for both academic and non-academic student club activities, while the Physical Director oversees the sports curriculum.<br><br>To ensure effective functioning, the Principal nominates student representatives (Secretary and Joint Secretary) for various clubs and sports each year, forming the executive council of the Student Club. The Club Secretary and Games Secretary manage the literary and sports activities, respectively, providing every student with opportunities to learn, express, and develop their talents in arts, literature, debate, drama, and sports through various club activities.<br><br>To nurture students' innate talents, KRISAT organizes cultural events, including TALARC, a competition among fourth-year students featuring 18 on-stage and 10 off-stage events. Winners receive prizes, celebrating their achievements. Another significant event is FIESTA, an inter-year competition that encompasses both on-stage and off-stage activities, culminating in awards for overall champions and individual titles such as Mr. FIESTA and Ms. FIESTA.<br><br>The diverse cultural programs organized by the student club at KRISAT since 2016 reflect the vibrant community and the commitment to fostering talent among students. The list of these events is provided below.</p><br><table><thead><tr><td>S.No</td><td>Year</td><td>Name of the Event</td></tr></thead><tbody> <tr> <td>1</td> <td rowspan='4'>2016</td> <td>Talent Search Day</td> </tr> <tr> <td>2</td> <td>Pongal Vizha</td> </tr> <tr> <td>3</td> <td>Student Club inaugration Programme</td> </tr> <tr> <td>4</td> <td>Sports Day & Hostel Day</td> </tr> <tr> <td>5</td> <td rowspan='4'>2017</td> <td>Freshers Day</td> </tr> <tr> <td>6</td> <td>TALARC</td> </tr> <tr> <td>7</td> <td>Pongal Vizha</td> </tr> <tr> <td>8</td> <td>Sports Day & Hostel Day</td> </tr> <tr> <td>9</td> <td rowspan='5'>2018</td> <td>Freshers Day</td> </tr> <tr> <td>10</td> <td>TALARC</td> </tr> <tr> <td>11</td> <td>Pongal Vizha</td> </tr> <tr> <td>12</td> <td>Club Day & College Day</td> </tr> <tr> <td>13</td> <td>Sports Day & Hostel Day</td> </tr> <tr> <td>14</td> <td rowspan='5'>2019</td> <td>Freshers Day</td> </tr> <tr> <td>15</td> <td>TALARC</td> </tr> <tr> <td>16</td> <td>Pongal Vizha</td> </tr> <tr> <td>17</td> <td>Club Day & College Day</td> </tr> <tr> <td>18</td> <td>Sports Day & Hostel Day</td> </tr> <tr> <td>19</td> <td rowspan='2'>2020</td> <td>Freshers Day</td> </tr> <tr> <td>20</td> <td>Pongal Vizha</td> </tr> <tr> <td>21</td> <td rowspan='3'>2021</td> <td>Freshers Day</td> </tr> <tr> <td>22</td> <td>Student Club Inauguration Programme</td> </tr> <tr> <td>23</td> <td>Farewell Day</td> </tr> <tr> <td>24</td> <td rowspan='8'>2022</td> <td>Freshers Day</td> </tr> <tr> <td>25</td> <td>Student Club inauguration Programme</td> </tr> <tr> <td>26</td> <td>TALARC</td> </tr> <tr> <td>27</td> <td>Pongal Vizha</td> </tr> <tr> <td>28</td> <td>FIESTA</td> </tr> <tr> <td>29</td> <td>Club Day & College Day</td> </tr> <tr> <td>30</td> <td>Sports Day & Hostel Day</td> </tr> <tr> <td>31</td> <td>Club Closing Day & Farewell Day</td> </tr> <tr> <td>32</td> <td rowspan='9'>2023</td> <td>Freshers Day</td> </tr> <tr> <td>33</td> <td>Student Club Inauguration Programme</td> </tr> <tr> <td>34</td> <td>TALARC</td> </tr> <tr> <td>35</td> <td>Food Festival</td> </tr> <tr> <td>36</td> <td>Pongal Vizha</td> </tr> <tr> <td>37</td> <td>FIESTA</td> </tr> <tr> <td>38</td> <td>Club Day & College Day</td> </tr> <tr> <td>39</td> <td>Sports Day & Hostel Day</td> </tr> <tr> <td>40</td> <td>Club Closing Day & Farewell Day</td> </tr> <tr> <td>41</td> <td rowspan='4'>2024</td> <td>Freshers Day</td> </tr> <tr> <td>42</td> <td>Student Club Inauguration Programme</td> </tr> <tr> <td>43</td> <td>Food FIESTA</td> </tr> <tr> <td>44</td> <td>Pongal Vizha</td> </tr> </tbody></table><br><p>We have participated in intercultural competitions organized in various colleges viz., TALENTIA at AC&RI, Madurai, CINCEF at CAT, Theni, AGRONOVA at TNAU, Coimbatore.<br><br>Our students have participated in the inter college cultural competitions and bagged  awards / prizes.</p><table> <thead><tr><td>S.No</td><td>Year</td><td>Event</td><td>Event Organizer</td><td>KRISAT Performance</td></tr></thead> <tbody> <tr><td>1</td><td>2020</td><td>TALENTIA</td><td>AC&RI, Madurai</td><td>Shipwreek</td></tr> <tr><td>2</td><td>2022</td><td>TALENTIA</td><td>AC&RI, Madurai</td><td>Dumb Charades, Shipwreck, Short Flim, Minute To Frame, Trailer Time, Art From Scribble and Non-Classical Solo.</td></tr> <tr><td>3</td><td>2023</td><td>TALENTIA</td><td>AC&RI, Madurai</td><td>Dumb Charades, Tamil Turncourt, Face Painting, Slapstick, Non-classical Solo, English Poetry and Word Arrows</td></tr> <tr><td>4</td><td>2023</td><td>AGRONOVA</td><td>TNAU, Coimbatore</td><td>Agro Fuzion</td></tr> <tr><td>5</td><td>2023</td><td>CINCEF</td><td>CAT, Theni</td><td>Classical Solo, Light Camera Dance, Group Fusion, Step and Synchronise, Song Recreation, Face Painting Connection, Vocal Solo, English Poetry, Tamil Poetry, Photography Trash Art, Doddle Art, Turn Court and Quiz</td></tr> <tr><td>6</td><td>2024</td><td>TALENTIA</td><td>AC&RI, Madurai</td><td>Just A Minute, Tamil Turn Court, Short Film, Rangoli and Non-classical Solo</td></tr> </tbody> </table> <br><p>The institution offers well-equipped hostel facilities, featuring a total of 172 rooms that accommodate both boys and girls, along with warden rooms, office spaces, and guest rooms.</p>",
+      "<br/><h3>Where innovation meets design—our campus is a masterpiece in the making.</h3><br><p>The infrastructure is constructed in 110 acre landscape with focus on sustainable environment. The area is 360 degree surrounded with elegant hillocks to let students dwell with nature.</p>",
   };
 
   const sports = {
@@ -120,8 +134,106 @@ const navContent = () => {
   };
 
   const academicRules = {
-    content: "<br><h3>Rules and Regulations</h3> <ul><li>I will not go outside the Hostel after 6.30 p.m. without the permission from the Residential tutor/Warden.</li><li>I will inform and seek permission of the Residential tutor/Warden to chat with my parents or relatives who visit the hostel to see me.</li><li>I will maintain the sanctum sanctorum of the dining place and I will not take away hostel utensils like dining plates, water glasses, cups or any other hostel materials outside the mess.</li><li>I will read the reading materials, dailies and magazines, intended for common reading purpose, at the common place and will not take them to my room.</li><li>I will not watch the T.V. after 9.00 p.m. on any day of the week.</li><li>I will upkeep my room and the Hostel premises clean and tidy.</li><li>I will abide by the Hostel Rules and Regulations to maintain discipline in the hostel.</li><li>I will not indulge in ragging or teasing the other fresher or any other person.</li><li>Further I am solely responsible and accountable for any sort of disturbances to me through usage of electronic gadgets and net workings and for which I should be blamed and KRISAT Institution is not responsible and hence I will use electronic gadgets judiciously and sensibly</li></ul>"
-  }
+    content:
+      "<br><h3>Rules and Regulations</h3> <ul><li>I will not go outside the Hostel after 6.30 p.m. without the permission from the Residential tutor/Warden.</li><li>I will inform and seek permission of the Residential tutor/Warden to chat with my parents or relatives who visit the hostel to see me.</li><li>I will maintain the sanctum sanctorum of the dining place and I will not take away hostel utensils like dining plates, water glasses, cups or any other hostel materials outside the mess.</li><li>I will read the reading materials, dailies and magazines, intended for common reading purpose, at the common place and will not take them to my room.</li><li>I will not watch the T.V. after 9.00 p.m. on any day of the week.</li><li>I will upkeep my room and the Hostel premises clean and tidy.</li><li>I will abide by the Hostel Rules and Regulations to maintain discipline in the hostel.</li><li>I will not indulge in ragging or teasing the other fresher or any other person.</li><li>Further I am solely responsible and accountable for any sort of disturbances to me through usage of electronic gadgets and net workings and for which I should be blamed and KRISAT Institution is not responsible and hence I will use electronic gadgets judiciously and sensibly</li></ul>",
+  };
+
+  const library = {
+    content:
+      "<br><h3>In the library, we don’t just find books—we find our future</h3>",
+  };
+
+  const collegeView = {
+    content:
+      "</br><h3>Every peak reminds us  that the sky's the limit, ,Surrounded by knowledge and nature’s grandest views.</h3>",
+  };
+
+  const laboratories = {
+    content:
+      "<br/><h3>Every experiment brings us one step closer to understanding the world.</h3>",
+  };
+
+  const observatory = {
+    content: "<br/><h3>From data to forecasts—weather science in action.</h3>",
+  };
+
+  const miRoom = {
+    content:
+      "<br/><h3>Here to provide comfort, care, and wellness in every visit.</h3>",
+  };
+
+  const smartClass = {
+    content:
+      "<br/><h3>Interactive learning, limitless possibilities, Where technology meets education for a smarter tomorrow.</h3>",
+  };
+
+  const examHall = {
+    content: "<br/><h3>A test of knowledge, a triumph of effort.</h3>",
+  };
+
+  const cafeteria = {
+    content: "<br/><h3>Take a break, grab a bite and recharge.</h3>",
+  };
+
+  const gym = {
+    content:
+      "<br/><h3>The pain you feel today will be the strength you feel tomorrow.</h3>",
+  };
+
+  const mess = {
+    content:
+      "<br/><h3>When hunger strikes, the mess delivers comfort in every bite.</h3>",
+  };
+
+  const ifs = {
+    content:
+      "<br/><p>It is a holistic approach to farming where various agricultural activities are integrated on a single farm, aiming to optimize the use of resources and improve farm productivity, sustainability, and economic viability. It combines crop cultivation, livestock management, agroforestry, fish farming, and other activities in a way that they complement and support each other. We have established IFS unit at 5 cents comprising of crop (paddy), livestocks (duck,hen) and fish farming.</p>",
+  };
+
+  const climbers = {
+    content:
+      "<br/><h3>Let your dreams climb high, just like a vine searching for the sun.</h3><br/><div class='image-gallery-climbers'></div>",
+  };
+
+  const creepers = {
+    content:
+      "<br/><h3>Stay low, spread wide—true strength doesn’t always stand tall.</h3><br/><div class='image-gallery-creepers'></div>",
+  };
+
+  const flowers = {
+    content:
+      "<br/><h3>Where flowers bloom, so does hope.</h3><br/><div class='image-gallery-flowers'></div>",
+  };
+
+  const fruits = {
+    content:
+      "<br/><h3>The roots of hard work bear the sweetest fruit.</h3><br/><div class='image-gallery-fruits'></div>",
+  };
+
+  const indoor = {
+    content:
+      "<br/><h3>A little plant can make a big room feel alive.</h3><br/><div class='image-gallery-indoor'></div>",
+  };
+
+  const medicinalplants = {
+    content:
+      "<br/><h3>In every leaf, a remedy; in every herb, a healer</h3><br/><div class='image-gallery-medicinal'></div>",
+  };
+
+  const outdoorPlants = {
+    content:
+      "<br/><h3>Gardens are the purest of human pleasures.</h3><br/><div class='image-gallery-outdoor'></div>",
+  };
+
+  const shrubs = {
+    content:
+      "<br/><h3>Strong, silent, and always blooming—shrubs are nature’s quiet beauty.</h3><br/><div class='image-gallery-shrubs'></div>",
+  };
+
+  const trees = {
+    content:
+      "<br/><h3>The best time to plant a tree was 20 years ago. The second best time is now.</h3><br/><div class='image-gallery-trees'></div>",
+  };
 
   return {
     history,
@@ -143,13 +255,33 @@ const navContent = () => {
     orchard,
     gardenLand,
     dryLand,
-    hostel,
+    ifs,
+    // hostel,
     infras,
-    culturals,
+    library,
+    // culturals,
     sports,
     hostelRules,
     collegeRules,
-    academicRules
+    academicRules,
+    collegeView,
+    laboratories,
+    observatory,
+    miRoom,
+    smartClass,
+    examHall,
+    cafeteria,
+    gym,
+    mess,
+    climbers,
+    creepers,
+    flowers,
+    fruits,
+    indoor,
+    medicinalplants,
+    outdoorPlants,
+    shrubs,
+    trees,
   };
 };
 
