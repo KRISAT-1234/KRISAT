@@ -56,7 +56,9 @@
   }
   
   .modal-action {
-    text-align: center;
+    // text-align: center;
+    display: flex;
+    justify-content: space-around;
   
     .brochure-button {
       background-color: #4caf50;

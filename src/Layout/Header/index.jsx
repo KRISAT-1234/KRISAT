@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import InstagramIcon from "@mui/icons-material/Instagram";
 import "./Header.scss";
 import PropTypes from "prop-types";
 import AppBar from "@mui/material/AppBar";
@@ -136,6 +137,15 @@ const Header = (props) => {
                   <span className="enquiry-info">
                     <p className="en-phone">90959 00202/3/4/6</p>
                     <p className="en-mail">admin@krisat.edu.in</p>
+                  </span>
+                  <span className="social-media">
+                    <a
+                      href="https://www.instagram.com/krisatagriculture?igsh=dG4xaWg2cWRwOWxy"
+                      target={"_blank"}
+                      title={"@krisatagriculture"}
+                    >
+                      <InstagramIcon className="icon" />
+                    </a>
                   </span>
                 </span>
                 <span className="sub-menus">
