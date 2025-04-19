@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/KRISAT/static/css/main.73317a9a.css",
-    "main.js": "/KRISAT/static/js/main.03f71eda.js",
+    "main.css": "/KRISAT/static/css/main.a7fad531.css",
+    "main.js": "/KRISAT/static/js/main.c9b4b2d5.js",
     "static/js/453.cda50290.chunk.js": "/KRISAT/static/js/453.cda50290.chunk.js",
     "static/media/img_infra.jpg": "/KRISAT/static/media/img_infra.0eaf0050da4825f28f08.jpg",
+    "static/media/KRISAT-English-Brochure.pdf": "/KRISAT/static/media/KRISAT-English-Brochure.e30cf664ff24e87c4f5e.pdf",
+    "static/media/KRISAT-Tamil Brochure.pdf": "/KRISAT/static/media/KRISAT-Tamil Brochure.e94a1dc0d55f59469ba9.pdf",
     "static/media/creepers2.jpg": "/KRISAT/static/media/creepers2.2b78195e316fc140df5a.jpg",
     "static/media/fruits3.jpg": "/KRISAT/static/media/fruits3.f4144c801c7e3962b061.jpg",
     "static/media/Pavitra.jpeg": "/KRISAT/static/media/Pavitra.17e7aae66f69c71c893f.jpeg",
@@ -144,12 +146,12 @@
     "static/media/priya-dharshini.jpg": "/KRISAT/static/media/priya-dharshini.09fa064edc66b9a56bcc.jpg",
     "index.html": "/KRISAT/index.html",
     "static/media/COLLAGE_OUT.mp4": "/KRISAT/static/media/COLLAGE_OUT.f46b633a2f6e8af6305c.mp4",
-    "main.73317a9a.css.map": "/KRISAT/static/css/main.73317a9a.css.map",
-    "main.03f71eda.js.map": "/KRISAT/static/js/main.03f71eda.js.map",
+    "main.a7fad531.css.map": "/KRISAT/static/css/main.a7fad531.css.map",
+    "main.c9b4b2d5.js.map": "/KRISAT/static/js/main.c9b4b2d5.js.map",
     "453.cda50290.chunk.js.map": "/KRISAT/static/js/453.cda50290.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73317a9a.css",
-    "static/js/main.03f71eda.js"
+    "static/css/main.a7fad531.css",
+    "static/js/main.c9b4b2d5.js"
   ]
 }
