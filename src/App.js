@@ -4,8 +4,7 @@ import Layout from "./Layout/Main";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import StaticTemplate from "./Layout/StaticTemplate";
-// import contentData from "./Services/Utils/json/contentData";
-import ContentData from "./Services/utils/json/contentData";
+import ContentData from "./services/utils/json/ContentData";
 import Gallery from "./Pages/Gallery";
 
 function App() {
@@ -24,8 +23,9 @@ function App() {
               element={
                 <StaticTemplate
                   navItem={"AboutUs"}
+                  label={"About Us"}
                   subNav={staticData["About Us"]}
-                  content="AboutUs Content"
+                  content="About Us"
                 />
               }
             />
@@ -35,7 +35,7 @@ function App() {
                 <StaticTemplate
                   navItem={"Farming"}
                   subNav={staticData["Farming"]}
-                  content="Farming Content"
+                  content="Farming"
                 />
               }
             />
@@ -45,7 +45,7 @@ function App() {
                 <StaticTemplate
                   navItem={"Academics"}
                   subNav={staticData["Academics"]}
-                  content="Academics Content"
+                  content="Academics"
                 />
               }
             />
@@ -55,7 +55,7 @@ function App() {
                 <StaticTemplate
                   navItem={"AcademicActivities"}
                   subNav={staticData["Academic Activities"]}
-                  content="Academic Activities Content"
+                  content="Academic Activities"
                 />
               }
             />
@@ -65,7 +65,7 @@ function App() {
                 <StaticTemplate
                   navItem={"LifeKRISAT"}
                   subNav={staticData["Life @ KRISAT"]}
-                  content="Life @ KRISAT Content"
+                  content="Life @ KRISAT"
                 />
               }
             />
@@ -75,7 +75,7 @@ function App() {
                 <StaticTemplate
                   navItem={"Facilities"}
                   subNav={staticData["Facilities"]}
-                  content="Facilities Content"
+                  content="Facilities"
                 />
               }
             />
@@ -85,7 +85,7 @@ function App() {
                 <StaticTemplate
                   navItem={"Nursery"}
                   subNav={staticData["Nursery"]}
-                  content="Nursery Content"
+                  content="Nursery"
                 />
               }
             />
@@ -95,7 +95,7 @@ function App() {
                 <StaticTemplate
                   navItem={"RulesRegulations"}
                   subNav={staticData["Rules & Regulations"]}
-                  content="Rules & Regulations Content"
+                  content="Rules & Regulations"
                 />
               }
             />
