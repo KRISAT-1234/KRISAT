@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/KRISAT/static/css/main.53f46b89.css",
-    "main.js": "/KRISAT/static/js/main.993bb850.js",
+    "main.css": "/KRISAT/static/css/main.b998679b.css",
+    "main.js": "/KRISAT/static/js/main.20a990d9.js",
     "static/js/453.cda50290.chunk.js": "/KRISAT/static/js/453.cda50290.chunk.js",
     "static/media/img_infra.jpg": "/KRISAT/static/media/img_infra.0eaf0050da4825f28f08.jpg",
     "static/media/KRISAT-English-Brochure.pdf": "/KRISAT/static/media/KRISAT-English-Brochure.e30cf664ff24e87c4f5e.pdf",
@@ -28,7 +28,7 @@
     "static/media/kumar.jpeg": "/KRISAT/static/media/kumar.e050eba63d6ae878297f.jpeg",
     "static/media/santhosh.jpeg": "/KRISAT/static/media/santhosh.ff8f45db6cab2c221daa.jpeg",
     "static/media/ponnarasi.jpeg": "/KRISAT/static/media/ponnarasi.cb27952b07dcc4b5ef3e.jpeg",
-    "static/media/deivasigamani1.JPG": "/KRISAT/static/media/deivasigamani1.f3a112be9376d4f0dcf5.JPG",
+    "static/media/deivasigamani1.jpg": "/KRISAT/static/media/deivasigamani1.f3a112be9376d4f0dcf5.jpg",
     "static/media/sankardass1.JPG": "/KRISAT/static/media/sankardass1.488dad87233fcfda8431.JPG",
     "static/media/shrub4.jpg": "/KRISAT/static/media/shrub4.0ffa231226d50b8a6a1c.jpg",
     "static/media/dinesh.pdf": "/KRISAT/static/media/dinesh.d086a61992e1ff726a4e.pdf",
@@ -192,12 +192,12 @@
     "static/media/pavitra.docx": "/KRISAT/static/media/pavitra.32599ca15d0fcb051a9c.docx",
     "index.html": "/KRISAT/index.html",
     "static/media/COLLAGE_OUT.mp4": "/KRISAT/static/media/COLLAGE_OUT.f46b633a2f6e8af6305c.mp4",
-    "main.53f46b89.css.map": "/KRISAT/static/css/main.53f46b89.css.map",
-    "main.993bb850.js.map": "/KRISAT/static/js/main.993bb850.js.map",
+    "main.b998679b.css.map": "/KRISAT/static/css/main.b998679b.css.map",
+    "main.20a990d9.js.map": "/KRISAT/static/js/main.20a990d9.js.map",
     "453.cda50290.chunk.js.map": "/KRISAT/static/js/453.cda50290.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53f46b89.css",
-    "static/js/main.993bb850.js"
+    "static/css/main.b998679b.css",
+    "static/js/main.20a990d9.js"
   ]
 }
