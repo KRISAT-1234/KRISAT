@@ -38,11 +38,12 @@ const AdmissionModal = () => {
         </button>
         <h2 className="modal-title">🎓 Admissions Open!</h2>
         <p className="modal-text">
-          We’re accepting applications for the 2024–2025 academic year. Secure
+          We’re accepting applications for the 2025–2026 academic year. Secure
           your seat today!
         </p>
         <p className="modal-call">
-          📞 Call Now: <a href="tel:9095900203">9095900203</a> /{" "}
+          📞 Call Now: <a href="tel:9095900202">9095900202</a> /{" "}
+          <a href="tel:9095900203">9095900203</a> /{" "}
           <a href="tel:9095900206">9095900206</a>
         </p>
         <div className="modal-action">

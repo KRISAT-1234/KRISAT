@@ -34,7 +34,7 @@ const Home = () => {
             <p>
               Affiliated by Tamil Nadu Agricultural university, Coimbatore, as
               per G.O.(Ms).No.98, Agriculture(AU) Department dt.29.12.2016,
-              Counsel of Tamilnadu.
+              Government of Tamilnadu.
             </p>
           </span>
         </div>
