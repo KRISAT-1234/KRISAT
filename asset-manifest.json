@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/KRISAT/static/css/main.b65b033d.css",
-    "main.js": "/KRISAT/static/js/main.35492877.js",
+    "main.css": "/KRISAT/static/css/main.53f46b89.css",
+    "main.js": "/KRISAT/static/js/main.993bb850.js",
     "static/js/453.cda50290.chunk.js": "/KRISAT/static/js/453.cda50290.chunk.js",
     "static/media/img_infra.jpg": "/KRISAT/static/media/img_infra.0eaf0050da4825f28f08.jpg",
     "static/media/KRISAT-English-Brochure.pdf": "/KRISAT/static/media/KRISAT-English-Brochure.e30cf664ff24e87c4f5e.pdf",
@@ -192,12 +192,12 @@
     "static/media/pavitra.docx": "/KRISAT/static/media/pavitra.32599ca15d0fcb051a9c.docx",
     "index.html": "/KRISAT/index.html",
     "static/media/COLLAGE_OUT.mp4": "/KRISAT/static/media/COLLAGE_OUT.f46b633a2f6e8af6305c.mp4",
-    "main.b65b033d.css.map": "/KRISAT/static/css/main.b65b033d.css.map",
-    "main.35492877.js.map": "/KRISAT/static/js/main.35492877.js.map",
+    "main.53f46b89.css.map": "/KRISAT/static/css/main.53f46b89.css.map",
+    "main.993bb850.js.map": "/KRISAT/static/js/main.993bb850.js.map",
     "453.cda50290.chunk.js.map": "/KRISAT/static/js/453.cda50290.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b65b033d.css",
-    "static/js/main.35492877.js"
+    "static/css/main.53f46b89.css",
+    "static/js/main.993bb850.js"
   ]
 }
