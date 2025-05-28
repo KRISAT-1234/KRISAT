@@ -2,8 +2,6 @@ import React, { useRef, useState } from "react";
 import CountUp from "react-countup";
 import "./VideoPlayer.scss";
 import bg_Image from "../../Assets/Images/img_infra.jpg";
-import PlayCircleIcon from "@mui/icons-material/PlayCircle";
-import PauseCircleIcon from "@mui/icons-material/PauseCircle";
 import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
 import PauseCircleOutlineIcon from "@mui/icons-material/PauseCircleOutline";
 
@@ -49,15 +47,15 @@ const VideoPlayer = ({ videoSrc }) => {
       {!isPlaying && (
         <div className="info-section">
           <div className="info-card">
-            <CountUp end={2016} duration={2} />
+            <CountUp end={2016} duration={2} separator="" />
             <p>ESTABLISHED</p>
           </div>
           <div className="info-card">
-            <CountUp end={56} duration={2} suffix="+" />
+            <CountUp end={56} duration={2} suffix="+" separator="" />
             <p>HECTARE GREEN CAMPUS</p>
           </div>
           <div className="info-card">
-            <CountUp end={330} duration={2} suffix="+" />
+            <CountUp end={330} duration={2} suffix="+" separator="" />
             <p>STUDENTS</p>
           </div>
         </div>

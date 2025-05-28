@@ -68,7 +68,7 @@ const ContentData = () => {
       "Shrubs",
       "Trees"
     ],
-    "Rules & Regulations": ["Academic Rules", "College Rules", "Hostel Rules"],
+    // "Rules & Regulations": ["Academic Rules", "College Rules", "Hostel Rules"],
   };
 
   return { staticData };

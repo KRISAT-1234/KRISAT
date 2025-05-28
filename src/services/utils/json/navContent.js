@@ -31,8 +31,7 @@ const navContent = () => {
         <li> C Rajendran, IAS (Retd), formerly Addl. Secretary, Agriculture</li>
         <li> K Seenivasan, B, Sc. FCA Auditor</li>
         <li> C Manivannan, Industrialist</li>
-        <li> Dr Siva, MBBS</li>
-        <li> Mr.Udhayakumar, Asst Director of Agriculture, Usilampatty,Madurai </li>  
+        <li> Dr Siva, MBBS</li> 
         <li> Dr.V.Swaminathan, (Retired Professor, Horticulture) </li>
         <li> Dr.Venkatraman, (Retired Professor, Agronomy) </li>
         <li> Mr.Palchamy, Farmer, Srirengapuram </li>

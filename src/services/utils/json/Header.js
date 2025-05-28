@@ -33,9 +33,9 @@ const HeaderData = () => {
     ],
     "Life @ KRISAT": [
       "Hostel",
-      "Sports Activities",
       "Culturals",
-      "Grievance",
+      "Sports Activities",
+      // "Grievance",
       //   "Infrastructure",
     ],
     Facilities: [
@@ -57,7 +57,7 @@ const HeaderData = () => {
       "Flower Plants",
       "Hanging & Creeper",
     ],
-    "Rules & Regulations": ["Academic Rules", "College Rules", "Hostel Rules"],
+    // "Rules & Regulations": ["Academic Rules", "College Rules", "Hostel Rules"],
   };
 
   const navItems = [
